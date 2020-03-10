@@ -247,7 +247,6 @@ Anaheim Union High,Cypress High,9801 Valley View Street Cypress CA 90630-3994,6,
 Anaheim Union High,Dale Junior High,900 South Dale Street Anaheim CA 92804-4097,NA,ppb,FALSE,tested
 Anaheim Union High,Gilbert High (Continuation),1800 Ball Road Anaheim CA 92804-5516,NA,ppb,FALSE,tested
 Anaheim Union High,Hope,7901 Knott Avenue Buena Park CA 90620-2469,7.3,ppb,TRUE,tested
-Anaheim Union High,John F. Kennedy High,8281 Walker Street La Palma CA 90623-2126,NA,ppb,FALSE,tested
 Anaheim Union High,Katella High,2200 East Wagner Avenue Anaheim CA 92806-4999,NA,ppb,FALSE,tested
 Anaheim Union High,Lexington Junior High,4351 Orange Avenue Cypress CA 90630-2799,NA,ppb,FALSE,tested
 Anaheim Union High,Loara High,1765 West Cerritos Avenue Anaheim CA 92804-6198,NA,ppb,FALSE,tested
@@ -534,20 +533,25 @@ Bellflower Unified,Thomas Jefferson Elementary,10027 East Rose Street Bellflower
 Bellflower Unified,Washington Elementary,9725 East Jefferson Street Bellflower CA 90706-3615,100,ppb,TRUE,tested
 Belmont-Redwood Shores Elementary,Central Elementary,NA,NA,NA,NA,not tested
 Belmont-Redwood Shores Elementary,Cipriani Elementary,2525 Buena Vista Belmont CA 94002-1454,NA,ppb,FALSE,tested
-Belmont-Redwood Shores Elementary,Fox Elementary,NA,NA,NA,NA,not tested
-Belmont-Redwood Shores Elementary,Nesbit Elementary,NA,NA,NA,NA,not tested
-Belmont-Redwood Shores Elementary,Ralston Intermediate,NA,NA,NA,NA,not tested
+Belmont-Redwood Shores Elementary,Fox Elementary,3100 Saint James Road Belmont CA 94002-2956,NA,ppb,FALSE,tested
+Belmont-Redwood Shores Elementary,Nesbit Elementary,500 Biddulph Way Belmont CA 94002-2711,NA,ppb,FALSE,tested
+Belmont-Redwood Shores Elementary,Ralston Intermediate,2675 Ralston Avenue Belmont CA 94002-1216,NA,ppb,FALSE,tested
 Belmont-Redwood Shores Elementary,Redwood Shores Elementary,225 Shearwater Parkway Redwood City CA 94065-7449,NA,ppb,FALSE,tested
 Belmont-Redwood Shores Elementary,Sandpiper Elementary,801 Redwood Shores Parkway Redwood City CA 94065-2279,NA,ppb,FALSE,tested
 Belridge Elementary,Belridge Elementary,NA,NA,NA,NA,not tested
 Benicia Unified,Benicia High,NA,NA,NA,NA,not tested
+Benicia Unified,Benicia High School,"1101 Military W, Benicia, CA 94510",NA,NA,NA,exempt
 Benicia Unified,Benicia Middle,NA,NA,NA,NA,not tested
+Benicia Unified,Benicia Middle School,"1100 Southampton Rd., Benicia, CA 94510",NA,NA,NA,exempt
 Benicia Unified,Community Day,NA,NA,NA,NA,not tested
-Benicia Unified,Joe Henderson Elementary,NA,NA,NA,NA,not tested
+Benicia Unified,Community Day School,"426 East K St., Benicia, CA 94510",NA,NA,NA,exempt
+Benicia Unified,Joe Henderson Elementary,"650 Hastings Dr., Benicia, CA 94510",NA,NA,NA,exempt
 Benicia Unified,Liberty High,NA,NA,NA,NA,not tested
-Benicia Unified,Mary Farmar Elementary,NA,NA,NA,NA,not tested
-Benicia Unified,Matthew Turner Elementary,NA,NA,NA,NA,not tested
+Benicia Unified,Liberty High School,"350 East J St., Benicia, CA 94510",NA,NA,NA,exempt
+Benicia Unified,Mary Farmar Elementary,"901 Military W, Benicia, CA 94510",NA,NA,NA,exempt
+Benicia Unified,Matthew Turner Elementary,"540 Rose Dr., Benicia, CA 94510",NA,NA,NA,exempt
 Benicia Unified,Robert Semple Elementary,NA,NA,NA,NA,not tested
+Benicia Unified,Semple Elementary,"2015 East 3rd St. Benicia, CA 94510",NA,NA,NA,exempt
 Bennett Valley Union Elementary,Sierra School of Sonoma County Santa Rosa,NA,NA,NA,NA,not tested
 Bennett Valley Union Elementary,Strawberry Elementary,2311 Horseshoe Drive Santa Rosa CA 95405-8199,NA,ppb,FALSE,tested
 Bennett Valley Union Elementary,Yulupa Elementary,2250 Mesquite Drive Santa Rosa CA 95405-8310,NA,ppb,FALSE,tested
@@ -588,11 +592,16 @@ Berryessa Union Elementary,Sierramont Middle,3155 Kimlee Drive San Jose CA 95132
 Berryessa Union Elementary,Summerdale Elementary,1100 Summerdale Drive San Jose CA 95132-2934,NA,ppb,FALSE,tested
 Berryessa Union Elementary,Toyon Elementary,995 Bard Street San Jose CA 95127-1103,NA,ppb,FALSE,tested
 Berryessa Union Elementary,Vinci Park Elementary,1311 Vinci Park Way San Jose CA 95131-2792,NA,ppb,FALSE,tested
-Beverly Hills Unified,Beverly Hills High,NA,NA,NA,NA,not tested
+Beverly Hills Unified,Beverly Hills High,"241 Moreno Dr, Beverly Hills, CA 90212-3639",NA,NA,NA,exempt
 Beverly Hills Unified,Beverly Vista Elementary,NA,NA,NA,NA,not tested
+Beverly Hills Unified,Beverly Vista Elementary School,"200 South Elm Drive, Beverly Hills, CA90212-4011",NA,NA,NA,exempt
 Beverly Hills Unified,El Rodeo Elementary,NA,NA,NA,NA,not tested
+Beverly Hills Unified,El Rodeo Elementary School,"605 North Whittier Drive, Beverly Hills, CA90210-3112",NA,NA,NA,exempt
 Beverly Hills Unified,Hawthorne Elementary,NA,NA,NA,NA,not tested
+Beverly Hills Unified,Hawthorne Elementary School,"624 North Rexford Drive, Beverly Hills, CA90210-3312",NA,NA,NA,exempt
+Beverly Hills Unified,Horace Mann Elementary School,"7750 Linares Avenue, Jurupa Valley, CA92509-0140",NA,NA,NA,exempt
 Beverly Hills Unified,Moreno High (Continuation),NA,NA,NA,NA,not tested
+Beverly Hills Unified,Moreno High School,"241 Moreno Drive, Beverly Hills, CA90212-3640",NA,NA,NA,exempt
 Big Creek Elementary,Big Creek Elementary,NA,NA,NA,NA,not tested
 Big Lagoon Union Elementary,Big Lagoon Elementary,269 Big Lagoon Park Road Trinidad CA 95570-9622,8.9,ppb,TRUE,tested
 Big Oak Flat-Groveland Unified,Don Pedro High,3090 Merced Falls Road La Grange CA 95329-1397,NA,ppb,FALSE,tested
@@ -657,7 +666,6 @@ Brea-Olinda Unified,Brea Country Hills Elementary,150 North Associated Road Brea
 Brea-Olinda Unified,Brea Junior High,400 North Brea Boulevard Brea CA 92821-3399,14,ppb,TRUE,tested
 Brea-Olinda Unified,Brea-Olinda High,789 North Wildcat Way Brea CA 92821-7400,NA,ppb,FALSE,tested
 Brea-Olinda Unified,Mariposa Elementary,1111 West Mariposa Drive Brea CA 92821-2599,NA,ppb,FALSE,tested
-Brea-Olinda Unified,Olinda Elementary,3145 East Birch Street Brea CA 92821-6250,NA,ppb,FALSE,tested
 Brea-Olinda Unified,William E. Fanning Elementary,650 North Apricot Brea CA 92821-3501,NA,ppb,FALSE,tested
 Brentwood Union Elementary,Adams (J. Douglas) Middle,401 American Avenue Brentwood CA 94513-4611,NA,ppb,FALSE,tested
 Brentwood Union Elementary,Brentwood Elementary,200 Griffith Lane Brentwood CA 94513-1137,NA,ppb,FALSE,tested
@@ -734,12 +742,16 @@ Buttonwillow Union Elementary,Buttonwillow Elementary,NA,NA,NA,NA,not tested
 Byron Union Elementary,Discovery Bay Elementary,NA,NA,NA,NA,not tested
 Byron Union Elementary,Timber Point Elementary,NA,NA,NA,NA,not tested
 Cabrillo Unified,Alvin S. Hatch Elementary,NA,NA,NA,NA,not tested
-Cabrillo Unified,El Granada Elementary,NA,NA,NA,NA,not tested
-Cabrillo Unified,Farallone View Elementary,250 LaConte and Kanoff Montara CA 94037-9999,NA,ppb,FALSE,tested
+Cabrillo Unified,El Granada Elementary,"400 Santiago Street, Half Moon Bay, CA",NA,NA,NA,exempt
+Cabrillo Unified,Farallone View Elementary,"1100 Le Conte Ave, Montara, CA 94037",NA,NA,NA,exempt
 Cabrillo Unified,Farallone View Elementary School,NA,NA,NA,NA,not tested
-Cabrillo Unified,Half Moon Bay High,NA,NA,NA,NA,not tested
+Cabrillo Unified,Half Moon Bay High,"1 Lewis Foster Dr, Half Moon Bay, CA 94019",NA,NA,NA,exempt
 Cabrillo Unified,Manuel F. Cunha Intermediate,NA,NA,NA,NA,not tested
 Cabrillo Unified,Pilarcitos Alternative High (Continuation),NA,NA,NA,NA,not tested
+Cabrillo Unified School District,Cabrillo Unified School District  Office,"498 Kelly Ave, Half Moon Bay, CA 94019",NA,NA,NA,exempt
+Cabrillo Unified School District,Cunha Intermediate,498 Kelly Avenue,NA,NA,NA,exempt
+Cabrillo Unified School District,Hatch Eleentary,"490 Miramontes Avenue, Half Moon Bay, CA",NA,NA,NA,exempt
+Cabrillo Unified School District,Kings Mountain Eleementary,"211 Swett Rd, Woodside, CA 94062",NA,NA,NA,exempt
 Cajon Valley Union,Anza Elementary,1005 South Anza Street El Cajon CA 92020-8602,NA,ppb,FALSE,tested
 Cajon Valley Union,Avocado Elementary,3845 Avocado School Road La Mesa CA 91941-7319,NA,ppb,FALSE,tested
 Cajon Valley Union,Blossom Valley Elementary,9863 Oakmont Terrace El Cajon CA 92021-2300,NA,ppb,FALSE,tested
@@ -1055,7 +1067,7 @@ Chaffey Joint Union High,Chaffey High,NA,NA,NA,NA,not tested
 Chaffey Joint Union High,Colony High,NA,NA,NA,NA,not tested
 Chaffey Joint Union High,Etiwanda High,NA,NA,NA,NA,not tested
 Chaffey Joint Union High,Los Osos High,NA,NA,NA,NA,not tested
-Chaffey Joint Union High,Montclair High,NA,NA,NA,NA,not tested
+Chaffey Joint Union High,Montclair High,"4725 Benito Street, Montclair, CA",NA,NA,NA,exempt
 Chaffey Joint Union High,Ontario High,NA,NA,NA,NA,not tested
 Chaffey Joint Union High,Rancho Cucamonga High,NA,NA,NA,NA,not tested
 Chaffey Joint Union High,Valley View High (Continuation),NA,NA,NA,NA,not tested
@@ -1208,6 +1220,16 @@ Claremont Unified,San Antonio High (Continuation),NA,NA,NA,NA,not tested
 Claremont Unified,Sumner Elementary,NA,NA,NA,NA,not tested
 Claremont Unified,Sycamore Elementary,NA,NA,NA,NA,not tested
 Claremont Unified,Vista del Valle Elementary,NA,NA,NA,NA,not tested
+Claremont Unified School District,Claremont High School,"1601 N Indian Hill Blvd, Claremont, CA 91711",NA,NA,NA,exempt
+Claremont Unified School District,Condit Elementary School,"1750 N Mountain Ave, Claremont, CA 91711",NA,NA,NA,exempt
+Claremont Unified School District,Danbury Special Education School,"1745 Lynoak Dr, Claremont, CA 91711",NA,NA,NA,exempt
+Claremont Unified School District,El Roble Intermediate School,"665 N Mountain Ave, Claremont, CA 91711",NA,NA,NA,exempt
+Claremont Unified School District,Mountain View Elementary School,"851 Santa Clara Ave W, Claremont, CA 91711",NA,NA,NA,exempt
+Claremont Unified School District,Oakmont Elementary School,"120 W Green St, Claremont, CA 91711",NA,NA,NA,exempt
+Claremont Unified School District,San Antonio High School,"125 W San Jose Ave, Claremont, CA 91711",NA,NA,NA,exempt
+Claremont Unified School District,Sumner Elementary School,"1770 Sumner Ave, Claremont, CA 91711",NA,NA,NA,exempt
+Claremont Unified School District,Sycamore Elementary School,"225 W 8th St, Claremont, CA 91711",NA,NA,NA,exempt
+Claremont Unified School District,Vista Del Valle Elementary School,"514 Bucknell Ave, Claremont, CA 91711",NA,NA,NA,exempt
 Cloverdale Unified,"Cloverdale Head Start, Johanna Ecchols-Hansen, Sonoma 4cs Preschool, Eagle Creek",322 N Washington St Cloverdale CA 95425,NA,ppb,FALSE,tested
 Cloverdale Unified,Cloverdale High and Adult,509 North Cloverdale Blvd Cloverdale CA 95425-3324,NA,ppb,FALSE,tested
 Cloverdale Unified,Jefferson Elementary,NA,NA,NA,NA,not tested
@@ -1286,10 +1308,10 @@ Coalinga-Huron Unified,Henry F. Bishop Elementary,1501 Sunset Avenue Coalinga CA
 Coalinga-Huron Unified,Huron Elementary,36131 N Street Huron CA 93234,NA,ppb,FALSE,tested
 Coalinga-Huron Unified,Huron Middle,16875 Fourth Street Huron CA 93234,NA,ppb,FALSE,tested
 Coalinga-Huron Unified,Nell Dawson Elementary,1303 Sunset Avenue Coalinga CA 93210-2927,NA,ppb,FALSE,tested
-Coast Unified,Cambria Grammar,NA,NA,NA,NA,not tested
-Coast Unified,Coast Union High,NA,NA,NA,NA,not tested
-Coast Unified,Leffingwell High (Continuation),NA,NA,NA,NA,not tested
-Coast Unified,Santa Lucia Middle,NA,NA,NA,NA,not tested
+Coast Unified,Cambria Grammar,3223 Main Street Cambria CA 93428-3304,NA,ppb,FALSE,tested
+Coast Unified,Coast Union High,2950 Santa Rosa Creek Road Cambria CA 93428-3506,NA,ppb,FALSE,tested
+Coast Unified,Leffingwell High (Continuation),2820 Santa Rosa Creek Road Cambria CA 93428-3524,NA,ppb,FALSE,tested
+Coast Unified,Santa Lucia Middle,2850 Schoolhouse Lane Cambria CA 93428-4108,NA,ppb,FALSE,tested
 Cold Spring Elementary,Cold Spring Elementary,2243 Sycamore Canyon Road Santa Barbara CA 93108-1909,NA,ppb,FALSE,tested
 Colfax Elementary,Colfax Elementary,24825 Ben Taylor Road Colfax CA 95713-9553,NA,ppb,FALSE,tested
 College Elementary,College Elementary,3525 Pine St. Santa Ynez CA 93460-9425,NA,ppb,FALSE,tested
@@ -1437,7 +1459,6 @@ Corona-Norco Unified,Harada Elementary,12884 Oakdale Street Eastvale CA 92880-85
 Corona-Norco Unified,Highland Elementary,2301 Alhambra Street Norco CA 92860-1109,160,ppb,TRUE,tested
 Corona-Norco Unified,Home Gardens Academy,13550 Tolton Avenue Corona CA 92879-2059,NA,ppb,FALSE,tested
 Corona-Norco Unified,John Adams Elementary,2350 Border Avenue Corona CA 92882-5608,NA,ppb,FALSE,tested
-Corona-Norco Unified,John F. Kennedy High,1951 Third Street Norco CA 92860-2643,NA,ppb,FALSE,tested
 Corona-Norco Unified,John Stallings Elementary,1980 Fullerton Avenue Corona CA 92881-3105,NA,ppb,FALSE,tested
 Corona-Norco Unified,Lee V. Pollard High,185 Magnolia Ave Corona CA 92879-3329,NA,ppb,FALSE,tested
 Corona-Norco Unified,Letha Raney Intermediate,1010 West Citron Street Corona CA 92882-4051,NA,ppb,FALSE,tested
@@ -1811,13 +1832,21 @@ El Monte City,Cleminson Elementary,NA,NA,NA,NA,not tested
 El Monte City,Columbia Elementary,NA,NA,NA,NA,not tested
 El Monte City,Cortada Elementary,NA,NA,NA,NA,not tested
 El Monte City,Gidley Elementary,NA,NA,NA,NA,not tested
-El Monte City,Legore Elementary,NA,NA,NA,NA,not tested
-El Monte City,New Lexington Elementary,NA,NA,NA,NA,not tested
+El Monte City,Legore Elementary,"11121 Bryant Rd, El Monte, CA 91731",NA,NA,NA,exempt
+El Monte City,New Lexington Elementary,"10410 East Bodger St. El Monte, CA 91733-1314.",NA,NA,NA,exempt
 El Monte City,Potrero Elementary,NA,NA,NA,NA,not tested
 El Monte City,Shirpser Elementary,NA,NA,NA,NA,not tested
 El Monte City,Thompson Elementary,NA,NA,NA,NA,not tested
-El Monte City,Wilkerson Elementary,NA,NA,NA,NA,not tested
-El Monte City,Wright Elementary,NA,NA,NA,NA,not tested
+El Monte City,Wilkerson Elementary,"2700 Doreen Ave, El Monte, CA 91733",NA,NA,NA,exempt
+El Monte City,Wright Elementary,"11317 E. McGirk Rd., El Monte, CA 91732",NA,NA,NA,exempt
+El Monte City School District,Escondido High School,"1535 N. Broadway  Escondido, CA. 92026",NA,NA,NA,exempt
+El Monte City School District,Orange Glen High School,"2200 Glenridge Road  Escondido, CA 92027",NA,NA,NA,exempt
+El Monte City School District,San Pasqual High School,"3300 Bear Valley Pkwy.  Escondido, CA 92025",NA,NA,NA,exempt
+El Monte City School District,Valley High School,"410 N. Hidden Trails Rd.  Escondido, CA 92027",NA,NA,NA,exempt
+El Monte City Unified,Cleminson Elementary School,"5213 Daleview Ave, Temple City, CA 91780",NA,NA,NA,exempt
+El Monte City Unified,Gidley Elementary School,"10226 Lower Azusa Rd, El Monte, CA 91731",NA,NA,NA,exempt
+El Monte City Unified,Rio Hondo Elementary School,"11425 Wildflower Rd, Arcadia, CA 91006",NA,NA,NA,exempt
+El Monte City Unified,Shirpser Elementary School,"4020 Gibson Rd, El Monte, CA 91731",NA,NA,NA,exempt
 El Monte Union High,El Monte Union High School Community Day,5050 Kings Row El Monte CA 91731-5405,NA,ppb,FALSE,tested
 El Monte Union High,El Monte/Rosemead Adult,NA,NA,NA,NA,not tested
 El Monte Union High,Fernando R. Ledesma Continuation High,12347 Ramona Boulevard El Monte CA 91732-2569,NA,ppb,FALSE,tested
@@ -1916,6 +1945,7 @@ Emery Unified,Anna Yates Elementary,NA,NA,NA,NA,not tested
 Emery Unified,Emery Secondary,915 54th Street Oakland CA 94608-3142,NA,ppb,FALSE,tested
 Emery Unified,Emeryville Child Development Center,1220 53rd Street Emeryville CA 94608,NA,ppb,FALSE,tested
 Emery Unified,Emeryville Preschool Students,1275 - 61st Street Emeryville CA 94608-2132,NA,ppb,FALSE,tested
+Emery USD,German School,"1070 41 St, Emeryville CA",NA,NA,NA,exempt
 Emeryville Unified,East Bay German International School,1070 41st St. Emeryville CA 94608,46,ppb,TRUE,tested
 Empire Union Elementary,Alice N. Stroud Elementary,815 Frazine Road Modesto CA 95357-0255,10,ppb,TRUE,tested
 Empire Union Elementary,Bernard L. Hughes Elementary,512 North McClure Road Modesto CA 95357-1542,NA,ppb,FALSE,tested
@@ -2008,6 +2038,9 @@ Etiwanda Elementary,Summit Intermediate,5959 East Avenue Etiwanda CA 91739-2217,
 Etiwanda Elementary,Terra Vista Elementary,7497 Mountain View Drive Rancho Cucamonga CA 91730-7274,NA,ppb,FALSE,tested
 Etiwanda Elementary,West Heritage Elementary,13690 West Constitution Way Fontana CA 92336-3884,NA,ppb,FALSE,tested
 Etiwanda Elementary,Windrows Elementary,6855 Victoria Park Lane Etiwanda CA 91739-0248,5.2,ppb,TRUE,tested
+EUHSD,Adult Education Program,"220 W Crest St, Escondido, CA 92025",NA,NA,NA,exempt
+EUHSD,Escondido Union High School District Office,"302 N Midway Dr, Escondido, CA 92027",NA,NA,NA,exempt
+EUHSD,START Program,"2065 E. Valley Pkwy, Escondido, CA",NA,NA,NA,exempt
 Eureka City Schools,Catherine L. Zane Middle,2155 S Street Eureka CA 95501-3140,NA,ppb,FALSE,tested
 Eureka City Schools,Eureka Senior High,1915 J Street Eureka CA 95501-3052,NA,ppb,FALSE,tested
 Eureka City Schools,Lafayette Elementary,3100 Park Street Eureka CA 95501-1544,NA,ppb,FALSE,tested
@@ -2264,7 +2297,6 @@ Fremont Unified,Irvington High,"41800 Blacow Rd, Fremont, CA 94538",NA,NA,NA,exe
 Fremont Unified,J. Haley Durham Elementary,40292 Leslie Street Fremont CA 94538-3520,NA,ppb,FALSE,tested
 Fremont Unified,James Leitch Elementary,NA,NA,NA,NA,not tested
 Fremont Unified,John Blacow Elementary,40404 Sundale Drive Fremont CA 94538-3314,NA,ppb,FALSE,tested
-Fremont Unified,John F. Kennedy High,39999 Blacow Road Fremont CA 94538-1913,NA,ppb,FALSE,tested
 Fremont Unified,John G. Mattos Elementary,37944 Farwell Drive Fremont CA 94536-7008,NA,ppb,FALSE,tested
 Fremont Unified,John Gomes Elementary,555 Lemos Lane Fremont CA 94539-3750,NA,ppb,FALSE,tested
 Fremont Unified,John M. Horner Junior High,41365 Chapel Way Fremont CA 94538-4202,6.8,ppb,TRUE,tested
@@ -2512,12 +2544,17 @@ Garden Grove Unified,Woodbury Elementary,11362 Woodbury Road Garden Grove CA 928
 Garvey Elementary,Bitely (Arlene) Elementary,NA,NA,NA,NA,not tested
 Garvey Elementary,Emerson (Ralph Waldo) Elementary,NA,NA,NA,NA,not tested
 Garvey Elementary,Garvey (Richard) Intermediate,NA,NA,NA,NA,not tested
-Garvey Elementary,Hillcrest Elementary,NA,NA,NA,NA,not tested
+Garvey Elementary,Hillcrest Elementary,795 Pepper Street,NA,NA,NA,exempt
 Garvey Elementary,Monterey Vista Elementary,NA,NA,NA,NA,not tested
 Garvey Elementary,Rice (Eldridge) Elementary,NA,NA,NA,NA,not tested
 Garvey Elementary,Sanchez (George I.) Elementary,NA,NA,NA,NA,not tested
 Garvey Elementary,Temple (Roger W.) Intermediate,NA,NA,NA,NA,not tested
 Garvey Elementary,Willard (Frances E.) Elementary,NA,NA,NA,NA,not tested
+Garvey Schoool District,Dewey Elementary,"525 Dewey Ave E, San Gabriel, CA 91776",NA,NA,NA,exempt
+Garvey Unified,Arlene Bitely Elementary School,"7501 Fern Ave, Rosemead, CA 91770",NA,NA,NA,exempt
+Garvey Unified,Eldridge Rice Elementary,"2150 Angelus Ave, Rosemead, CA 91770",NA,NA,NA,exempt
+Garvey Unified,Ralph Waldo Emerson Elementary School,"7544 Emerson Pl, Rosemead, CA 91770",NA,NA,NA,exempt
+Garvey Unified,Richard Garvey Intermediate,"2720 Jackson Ave, Rosemead, CA 91770",NA,NA,NA,exempt
 Gateway Unified,Buckeye School of the Arts,3407 Hiatt Drive Redding CA 96003-1204,NA,ppb,FALSE,tested
 Gateway Unified,Central Valley High,4066 La Mesa Avenue Shasta Lake CA 96019-9243,NA,ppb,FALSE,tested
 Gateway Unified,Gateway Educational Options,3500 Tamarack Dr. Redding CA 96003-1747,7.38,ppb,TRUE,tested
@@ -3014,30 +3051,39 @@ Julian Union Elementary,Julian Elementary,NA,NA,NA,NA,not tested
 Julian Union Elementary,Julian Junior High,NA,NA,NA,NA,not tested
 Julian Union High,Julian High,NA,NA,NA,NA,not tested
 Julian Union High,Redding (Ray) High (Continuation),NA,NA,NA,NA,not tested
-Jurupa Unified,Adult Alternative Education,NA,NA,NA,NA,not tested
-Jurupa Unified,Camino Real Elementary,NA,NA,NA,NA,not tested
-Jurupa Unified,Glen Avon Elementary,NA,NA,NA,NA,not tested
+Jurupa Unified,Adult Alternative Education,"4041 Pacific Avenue, Jurupa Valley, CA92509-7251",NA,NA,NA,exempt
+Jurupa Unified,Camino Real Elementary,"4655 Camino Real, Jurupa Valley, CA 92509-5419",NA,NA,NA,exempt
+Jurupa Unified,Glen Avon Elementary,"4352 Pyrite Street, Jurupa Valley, CA 92509-3338",NA,NA,NA,exempt
+Jurupa Unified,Granite Hill Elem,"9371 Granite Hill, Jurupa Valley, CA 92509-1024",NA,NA,NA,exempt
 Jurupa Unified,Granite Hill Elementary,NA,NA,NA,NA,not tested
-Jurupa Unified,Ina Arbuckle Elementary,NA,NA,NA,NA,not tested
-Jurupa Unified,Indian Hills Elementary,NA,NA,NA,NA,not tested
-Jurupa Unified,Jurupa Middle,NA,NA,NA,NA,not tested
+Jurupa Unified,Ina Arbuckle Elementary,"3600 Packard Street, Jurupa Valley, CA92509-4519",NA,NA,NA,exempt
+Jurupa Unified,Indian Hills Elementary,"7750 Linares Avenue, Jurupa Valley, CA 92509-0140",NA,NA,NA,exempt
+Jurupa Unified,Jurupa Middle,"8700 Galena Street, Jurupa Valley, CA 92509-3228",NA,NA,NA,exempt
 Jurupa Unified,Jurupa Unified School District Pre-K School Readiness Center,NA,NA,NA,NA,not tested
-Jurupa Unified,Jurupa Valley High,NA,NA,NA,NA,not tested
+Jurupa Unified,Jurupa USD Pre-K School Readiness Center,"5960 Mustang Lane, Jurupa Valley, CA92509-4259",NA,NA,NA,exempt
+Jurupa Unified,Jurupa Valley High,"10551 Bellegrave Avenue, Jurupa Valley, CA 91752-1800",NA,NA,NA,exempt
 Jurupa Unified,Mira Loma Middle,NA,NA,NA,NA,not tested
+Jurupa Unified,Miraloma Middle,"5051 Steve Street, Jurupa Valley, CA 92509-3548",NA,NA,NA,exempt
+Jurupa Unified,Mission Bell Elem,"4020 Conning Street, Jurupa Valley, CA 92509-2599",NA,NA,NA,exempt
 Jurupa Unified,Mission Bell Elementary,NA,NA,NA,NA,not tested
 Jurupa Unified,Mission Middle,NA,NA,NA,NA,not tested
+Jurupa Unified,Mission Middle School,"5961 Mustang LN, Jurupa Valley, CA92509-4260",NA,NA,NA,exempt
 Jurupa Unified,Nueva Vista Continuation High,NA,NA,NA,NA,not tested
-Jurupa Unified,Patriot High,NA,NA,NA,NA,not tested
-Jurupa Unified,Pedley Elementary,NA,NA,NA,NA,not tested
+Jurupa Unified,Nueva Vista High,"6836 34th Street, Jurupa Valley, CA 92509-1301",NA,NA,NA,exempt
+Jurupa Unified,Patriot High,"4355 Camino Real, Jurupa Valley, CA 92509-3455",NA,NA,NA,exempt
+Jurupa Unified,Pedley Elementary,"5871 Hudson Street, Jurupa Valley, CA 92509-5012",NA,NA,NA,exempt
 Jurupa Unified,Peralta Elementary,NA,NA,NA,NA,not tested
+Jurupa Unified,Peralta Elementary School,"6450 Peralta Place, Jurupa Valley, CA92509-6352",NA,NA,NA,exempt
 Jurupa Unified,Rubidoux High,NA,NA,NA,NA,not tested
-Jurupa Unified,Sky Country Elementary,NA,NA,NA,NA,not tested
+Jurupa Unified,Rubioux High School,"4250 Opal Street, Jurupa Valley, CA92509-7251",NA,NA,NA,exempt
+Jurupa Unified,Sky Country Elementary,"5520 Lucretia Avenue, Jurupa Valley, CA 91752-2060",NA,NA,NA,exempt
 Jurupa Unified,Steps Community Day,NA,NA,NA,NA,not tested
-Jurupa Unified,Stone Avenue Elementary,NA,NA,NA,NA,not tested
-Jurupa Unified,Sunnyslope Elementary,NA,NA,NA,NA,not tested
-Jurupa Unified,Troth Street Elementary,NA,NA,NA,NA,not tested
-Jurupa Unified,Van Buren Elementary,NA,NA,NA,NA,not tested
+Jurupa Unified,Stone Avenue Elementary,"5111 Stone Avenue, Jurupa Valley, CA 92509-4090",NA,NA,NA,exempt
+Jurupa Unified,Sunnyslope Elementary,"7050 38th Street, Jurupa Valley, CA 92509-1334",NA,NA,NA,exempt
+Jurupa Unified,Troth Street Elementary,"5565 Troth St., Jurupa Valley, CA 91742",NA,NA,NA,exempt
+Jurupa Unified,Van Buren Elementary,"9501 Jurupa Road, Jurupa Valley, CA 92509-3513",NA,NA,NA,exempt
 Jurupa Unified,West Riverside Elementary,NA,NA,NA,NA,not tested
+Jurupa Unified,West Riverside Elementary School,"3972 Riverview Drive, Jurupa Valley, CA92509-6611",NA,NA,NA,exempt
 KCUSD,Jefferson Preschool,1269 E. Washington Ave Reedley CA 93654,NA,ppb,FALSE,tested
 Kelseyville Unified,Ed Donaldson Education Center,4500 Konocti Road Kelseyville CA 95451-9320,NA,ppb,FALSE,tested
 Kelseyville Unified,Kelseyville Elementary,5065 Konocti Road Kelseyville CA 95451-0308,NA,ppb,FALSE,tested
@@ -4735,7 +4781,7 @@ Los Angeles County Office of Education,Environmental Charter Middle,812 West 165
 Los Angeles County Office of Education,Environmental Charter Middle - Inglewood,3600 West Imperial Highway Inglewood CA 90303-2714,NA,ppb,FALSE,tested
 Los Angeles County Office of Education,"Gonzales, David Camp",NA,NA,NA,NA,not tested
 Los Angeles County Office of Education,International Polytechnic High,3801 West Temple Avenue Building 128-16 Pomona CA 91768-2557,NA,ppb,FALSE,tested
-Los Angeles County Office of Education,Jardin de la Infancia,307 East Seventh Street Los Angeles CA 90014-2209,NA,ppb,FALSE,tested
+Los Angeles County Office of Education,Jardin de la Infancia,NA,NA,NA,NA,not tested
 Los Angeles County Office of Education,"Kirby, Dorothy Camp",1500 South McDonnell Avenue City Of Commerce CA 90040,6.6,ppb,TRUE,tested
 Los Angeles County Office of Education,L.A. County High School for the Arts,NA,NA,NA,NA,not tested
 Los Angeles County Office of Education,LA's Promise Charter Middle 1,1755 West 52nd St Los Angeles CA 90062-2347,NA,ppb,FALSE,tested
@@ -5766,6 +5812,7 @@ Los Angeles Unified,Youth Opportunities Unlimited,NA,NA,NA,NA,not tested
 Los Angeles Unified,YPI Valley Public Charter High,NA,NA,NA,NA,not tested
 Los Angeles Unified,Zane Grey Continuation,NA,NA,NA,NA,not tested
 Los Angeles Unified ROCP,Los Angeles Unified School District ROCP,NA,NA,NA,NA,not tested
+Los Angeles Unified School District,West Hollywood Elementary,"970 Hammond St, West Hollywood, CA 90069",NA,NA,NA,exempt
 Los Angeles Unified School District,Woodlawn Avenue School,NA,NA,NA,NA,not tested
 Los Banos Unified,Charleston Elementary,NA,NA,NA,NA,not tested
 Los Banos Unified,Crossroads Alternative Education Center,265 Mercy Springs Road Suite C Los Banos CA 93635-3875,NA,ppb,FALSE,tested
@@ -5979,11 +6026,11 @@ Meadows Union Elementary,Meadows Elementary,NA,NA,NA,NA,not tested
 Mendocino County Office of Education,Orr Creek,1011 Low Gap Road Ukiah CA 95482,NA,ppb,FALSE,tested
 Mendocino County Office of Education,West Hills Juvenile Hall Court,NA,NA,NA,NA,not tested
 Mendota Unified,McCabe Elementary,250 South Derrick Street Mendota CA 93640-2049,NA,ppb,FALSE,tested
-Mendota Unified,Mendota Community Day,NA,NA,NA,NA,not tested
+Mendota Unified,Mendota Community Day,"241 Smoot Ave. , Mendota, CA 93640-2234",NA,NA,NA,exempt
 Mendota Unified,Mendota Continuation High,NA,NA,NA,NA,not tested
 Mendota Unified,Mendota Elementary,NA,NA,NA,NA,not tested
 Mendota Unified,Mendota High,1200 Belmont Avenue Mendota CA 93640,NA,ppb,FALSE,tested
-Mendota Unified,Mendota Junior High,NA,NA,NA,NA,not tested
+Mendota Unified,Mendota Junior High,"1258 Belmont Ave, Mendota, CA 93640",NA,NA,NA,exempt
 Menifee Union Elementary,Bell Mountain Middle,NA,NA,NA,NA,not tested
 Menifee Union Elementary,Callie Kirkpatrick Elementary,"28800 Reviere Drive, Menifee 92584",NA,NA,NA,exempt
 Menifee Union Elementary,Chester W. Morrison Elementary,"30250 Bradley Road, Menifee 92584",NA,NA,NA,exempt
@@ -6049,11 +6096,13 @@ Mill Valley Elementary,Old Mill Elementary,352 Throckmorton Avenue Mill Valley C
 Mill Valley Elementary,Park Elementary,360 East Blithedale Avenue Mill Valley CA 94941-2140,NA,ppb,FALSE,tested
 Mill Valley Elementary,Strawberry Point Elementary,117 East Strawberry Drive Mill Valley CA 94941-2576,NA,ppb,FALSE,tested
 Mill Valley Elementary,Tamalpais Valley Elementary,350 Bell Lane Mill Valley CA 94941-4038,NA,ppb,FALSE,tested
-Millbrae Elementary,Green Hills Elementary,NA,NA,NA,NA,not tested
+Millbrae Elementary,Green Hills Elementary,401 Ludeman Lane Millbrae Ca. 94030,NA,NA,NA,exempt
 Millbrae Elementary,Lomita Park Elementary,NA,NA,NA,NA,not tested
-Millbrae Elementary,Meadows Elementary,NA,NA,NA,NA,not tested
-Millbrae Elementary,Spring Valley Elementary,NA,NA,NA,NA,not tested
+Millbrae Elementary,Meadows Elementary,"1101 Helen Dr, Millbrae, CA 94030",NA,NA,NA,exempt
+Millbrae Elementary,Spring Valley Elementary,17 Murchison Drive Millbrae Ca. 94030,NA,NA,NA,exempt
 Millbrae Elementary,Taylor Middle,NA,NA,NA,NA,not tested
+Millbrae School District,Glen Oaks Montessori School,797 Santa Margarita Ave. Millbrae Ca. 94030,NA,NA,NA,exempt
+Millbrae School District,Taylor Middle School,"850 Taylor Blvd, Millbrae, CA 94030",NA,NA,NA,exempt
 Millbrea Elementary School District,Lomita Park Elementary School,"200 Santa Helena Avenue, San Bruno, CA 94066",NA,NA,NA,exempt
 Milpitas Unified,Alexander Rose Elementary,250 Roswell Drive Milpitas CA 95035-5945,9.8,ppb,TRUE,tested
 Milpitas Unified,Anthony Spangler Elementary,140 North Abbott Milpitas CA 95035-4849,NA,ppb,FALSE,tested
@@ -6496,13 +6545,14 @@ Nevada Joint Union High,William & Marian Ghidotti High,250 Sierra College Drive 
 New Haven Unified,Core Learning Academy at Conley-Caraballo High,541 Blanche St Hayward CA 94544-7700,NA,ppb,FALSE,tested
 New Haven Unified,Decoto School for Independent Study,600 G Street Union City CA 94587-2400,NA,ppb,FALSE,tested
 New Haven Unified,Delaine Eastin Elementary,34901 Eastin Drive Union City CA 94587-5577,NA,ppb,FALSE,tested
+New Haven Unified,Guy Emanuele Elementary,"100 Decoto Road, Union City, CA",NA,NA,NA,exempt
 New Haven Unified,Guy Jr. Emanuele Elementary,NA,NA,NA,NA,not tested
 New Haven Unified,Hillview Crest Elementary,31410 Wheelon Avenue Hayward CA 94544-7662,NA,ppb,FALSE,tested
 New Haven Unified,Itliong-Vera Cruz,31604 Alvarado Boulevard Union City CA 94587-5802,NA,ppb,FALSE,tested
 New Haven Unified,James Logan High,1800 H Street Union City CA 94587-3321,NA,ppb,FALSE,tested
 New Haven Unified,New Haven Adult,1800 H St. Union City CA 94587-3321,NA,ppb,FALSE,tested
 New Haven Unified,Pioneer Elementary,32737 Bel Aire Street Union City CA 94587-5500,13,ppb,TRUE,tested
-New Haven Unified,Searles Elementary,NA,NA,NA,NA,not tested
+New Haven Unified,Searles Elementary,"33629 15th Street, Union City, CA",NA,NA,NA,exempt
 New Haven Unified,Tom Kitayama Elementary,1959 Sunsprite Drive Union City CA 94587-1995,NA,ppb,FALSE,tested
 New Hope Elementary,New Hope Elementary,26675 North Sacramento Boulevard Thornton CA 95686-0238,NA,ppb,FALSE,tested
 New Jerusalem Elementary,Acacia Elementary Charter,NA,NA,NA,NA,not tested
@@ -6922,7 +6972,7 @@ Old Adobe Union,Sonoma Mountain Elementary,1900 Rainier Circle Petaluma CA 94954
 Ontario-Montclair,Arroyo Elementary,NA,NA,NA,NA,not tested
 Ontario-Montclair,Berlyn Elementary,NA,NA,NA,NA,not tested
 Ontario-Montclair,Bon View Elementary,NA,NA,NA,NA,not tested
-Ontario-Montclair,Buena Vista Arts-Integrated,NA,NA,NA,NA,not tested
+Ontario-Montclair,Buena Vista Arts-Integrated,"5685 San Bernardino St, Montclair CA 91763",NA,NA,NA,exempt
 Ontario-Montclair,Central Language Academy,"415 East G St, Ontario CA 91764",NA,NA,NA,exempt
 Ontario-Montclair,Corona Elementary,NA,NA,NA,NA,not tested
 Ontario-Montclair,De Anza Middle,NA,NA,NA,NA,not tested
@@ -7103,14 +7153,15 @@ Pacific Grove Unified,Pacific Grove Middle,835 Forest Avenue Pacific Grove CA 93
 Pacific Grove Unified,Robert Down Elementary,485 Pine Avenue Pacific Grove CA 93950-3401,NA,ppb,FALSE,tested
 Pacific Union Elementary,Pacific Union Elementary,3001 Janes Road Arcata CA 95521-4701,NA,ppb,FALSE,tested
 Pacific Union Elementary,Trillium Charter,1464 Spear Avenue Arcata CA 95521-4882,NA,ppb,FALSE,tested
-Pacifica,Cabrillo Elementary,NA,NA,NA,NA,not tested
+Pacifica,Cabrillo Elementary,"601 Crespi Dr, Pacifica, CA 94044",NA,NA,NA,exempt
 Pacifica,Ingrid B. Lacy Middle,NA,NA,NA,NA,not tested
 Pacifica,Linda Mar Educational Center,NA,NA,NA,NA,not tested
-Pacifica,Ocean Shore Elementary,NA,NA,NA,NA,not tested
-Pacifica,Ortega Elementary,NA,NA,NA,NA,not tested
+Pacifica,Ocean Shore Elementary," 411 Oceana Blvd, Pacifica, CA 94044",NA,NA,NA,exempt
+Pacifica,Ortega Elementary,"375 Reina Del Mar, CA PACIFICA",NA,NA,NA,exempt
 Pacifica,Pacifica Independent Home Study,NA,NA,NA,NA,not tested
-Pacifica,Sunset Ridge Elementary,NA,NA,NA,NA,not tested
-Pacifica,Vallemar Elementary,NA,NA,NA,NA,not tested
+Pacifica,Sunset Ridge Elementary,"340 Inverness Dr, Pacifica, CA 94044",NA,NA,NA,exempt
+Pacifica,Vallemar Elementary,"1283 Terra Nova Blvd, Pacifica, CA 94044",NA,NA,NA,exempt
+Pacifica School District,Ingrid B Lacy Middle,"1427 Palmetto Ave, Pacifica, CA 94044",NA,NA,NA,exempt
 Pajaro Valley Unified,Amesti Elementary,NA,NA,NA,NA,not tested
 Pajaro Valley Unified,Ann Soldo Elementary,NA,NA,NA,NA,not tested
 Pajaro Valley Unified,Aptos Junior High,1001 Huntington Drive Aptos CA 95003-4104,NA,ppb,FALSE,tested
@@ -7287,17 +7338,18 @@ Paradise Unified,Ponderosa Elementary,NA,NA,NA,NA,not tested
 Paradise Unified,Ridgeview High (Continuation),13665 Skyway Magalia CA 95954-0640,NA,ppb,FALSE,tested
 Paramount Unified,Abraham Lincoln,NA,NA,NA,NA,not tested
 Paramount Unified,Alondra Middle,NA,NA,NA,NA,not tested
-Paramount Unified,Buena Vista High,NA,NA,NA,NA,not tested
+Paramount Unified,Buena Vista High,"3717 Michelson Street, Lakewood, CA 90712",NA,NA,NA,exempt
 Paramount Unified,Captain Raymond Collins,NA,NA,NA,NA,not tested
 Paramount Unified,Frank J. Zamboni,NA,NA,NA,NA,not tested
 Paramount Unified,Harry Wirtz Elementary,NA,NA,NA,NA,not tested
 Paramount Unified,Hollydale,NA,NA,NA,NA,not tested
+Paramount Unified,Hollydale Elementary School,"5511 Century Blvd, South Gate, CA 90280",NA,NA,NA,exempt
 Paramount Unified,Howard Tanner,NA,NA,NA,NA,not tested
 Paramount Unified,Leona Jackson,NA,NA,NA,NA,not tested
 Paramount Unified,Los Cerritos,NA,NA,NA,NA,not tested
 Paramount Unified,Major Lynn Mokler,NA,NA,NA,NA,not tested
 Paramount Unified,Mark Keppel,NA,NA,NA,NA,not tested
-Paramount Unified,Odyssey STEM Academy,NA,NA,NA,NA,not tested
+Paramount Unified,Odyssey STEM Academy,"3701 Michelson Street, Lakewood, CA 90712",NA,NA,NA,exempt
 Paramount Unified,Paramount Adult,NA,NA,NA,NA,not tested
 Paramount Unified,Paramount High,NA,NA,NA,NA,not tested
 Paramount Unified,Paramount Park Middle,NA,NA,NA,NA,not tested
@@ -7522,43 +7574,74 @@ Point Arena Joint Union High,South Coast Continuation,NA,NA,NA,NA,not tested
 Pollock Pines Elementary,Pinewood Elementary,6181 Pine Street Pollock Pines CA 95726-9608,11,ppb,TRUE,tested
 Pollock Pines Elementary,Sierra Ridge Middle,2700 Amber Trail Pollock Pines CA 95726-9213,NA,ppb,FALSE,tested
 Pomona Unified,Alcott Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Alcott Elementary School,"1600 S. Towne Ave , Pomona CA 91767-3409",NA,NA,NA,exempt
 Pomona Unified,Allison Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Allison Elementary School,"1011 Russell Place, Pomona 91767-3409",NA,NA,NA,exempt
 Pomona Unified,Armstrong Elementary,NA,NA,NA,NA,not tested
 Pomona Unified,Arroyo Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Arroyo Elementary School,"1605 West Arroyo Avenue, Pomona, CA 91768-2156",NA,NA,NA,exempt
 Pomona Unified,Barfield Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Barfield Elementary School,"2181 North San Antonio Avenue, Pomona, CA 91767-2403",NA,NA,NA,exempt
 Pomona Unified,Cortez Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Cortez Elementary School,"1300 North Dudley, Pomona, CA 91768-2200",NA,NA,NA,exempt
 Pomona Unified,Decker Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Decker Elementary School,"20 Village Loop Road, Pomona, CA  91766-4893",NA,NA,NA,exempt
 Pomona Unified,Diamond Point Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Diamond Point Elementary School,"24150 Sunset Crossing Road, Diamond Bar, CA  91765-1454",NA,NA,NA,exempt
 Pomona Unified,Diamond Ranch High,NA,NA,NA,NA,not tested
+Pomona Unified,Diamond Ranch High School,"100 Diamond Ranch Drive, Pomona, CA  91766-4723",NA,NA,NA,exempt
 Pomona Unified,Emerson Middle,NA,NA,NA,NA,not tested
+Pomona Unified,Emerson Middle School,"635 Lincoln Avenue, Pomona, CA  91767-4041",NA,NA,NA,exempt
 Pomona Unified,Fremont Academy of Engineering and Design,NA,NA,NA,NA,not tested
 Pomona Unified,Ganesha High,NA,NA,NA,NA,not tested
+Pomona Unified,Ganesha High School,"1151 Fairplex Drive, Pomona, CA  91768-1299",NA,NA,NA,exempt
 Pomona Unified,Garey High,NA,NA,NA,NA,not tested
-Pomona Unified,Golden Springs Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Garey High School,"321 West Lexington Avenue, Pomona, CA  91766-5254",NA,NA,NA,exempt
+Pomona Unified,Golden Springs Elementary,"245 South Ballena Drive, Diamond Bar, CA  91765-1758",NA,NA,NA,exempt
 Pomona Unified,Harrison Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Harrison Elementary School,"425 East Harrison Avenue, Pomona, CA  91767-1913",NA,NA,NA,exempt
 Pomona Unified,Kellogg Polytechnic Elementary,NA,NA,NA,NA,not tested
 Pomona Unified,Kingsley Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Kingsley Elementary School,"1170 Washington Street, Pomona, CA  91767-4164",NA,NA,NA,exempt
 Pomona Unified,La Verne Science and Technology Charter,NA,NA,NA,NA,not tested
 Pomona Unified,Lexington Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Lincoln Elementary School,"1200 North Gordon Street, Pomona, CA  91768-3135",NA,NA,NA,exempt
 Pomona Unified,Lopez Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Lopez Elementary School,"701 South White Avenue, Pomona, CA  91766-2932",NA,NA,NA,exempt
 Pomona Unified,Lorbeer Middle,NA,NA,NA,NA,not tested
+Pomona Unified,Lorbeer Middle School,"501 Diamond Bar Boulevard, Diamond Bar, CA  91765-2002",NA,NA,NA,exempt
 Pomona Unified,Marshall Middle,NA,NA,NA,NA,not tested
 Pomona Unified,Montvue Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Montvue Elementary School,"1440 San Bernardino Avenue, Pomona, CA  91767-3546",NA,NA,NA,exempt
 Pomona Unified,Palomares Academy of Health Science,NA,NA,NA,NA,not tested
+Pomona Unified,Palomares Middle School,"2211 North Orange Grove Avenue, Pomona, CA  91767-2319",NA,NA,NA,exempt
 Pomona Unified,Pantera Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Pantera Elementary School,"801 Pantera Drive, Diamond Bar, CA  91765-4637",NA,NA,NA,exempt
 Pomona Unified,Park West High (Continuation),NA,NA,NA,NA,not tested
+Pomona Unified,Park West High School,"1460 West Holt Avenue Suite 100, Pomona, CA  91767-2832",NA,NA,NA,exempt
 Pomona Unified,Philadelphia Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Philadelphia Elementary School,"600 East Philadelphia Street, Pomona, CA 91766-5799",NA,NA,NA,exempt
 Pomona Unified,Pomona Alternative,NA,NA,NA,NA,not tested
+Pomona Unified,Pomona Alternative School,"1460 East Holt Ave. Suite 100, Pomona, CA  91767-5851",NA,NA,NA,exempt
 Pomona Unified,Pomona Community Day,NA,NA,NA,NA,not tested
 Pomona Unified,Pomona High,NA,NA,NA,NA,not tested
+Pomona Unified,Pomona High School,"475 Bangor Street, Pomona, CA  91767-2443",NA,NA,NA,exempt
+Pomona Unified,Pueblo Elementary School,"1460 E. Holt Ave, Pomona, CA . 91767",NA,NA,NA,exempt
 Pomona Unified,Ranch Hills Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Roosevelt Elementary School,"701 North Huntington Boulevard, Pomona, CA  91768-3537",NA,NA,NA,exempt
 Pomona Unified,San Antonio Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,San Antonio Elementary School,"855 East Kingsley Avenue, Pomona, CA  91767-4919",NA,NA,NA,exempt
 Pomona Unified,San Jose Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,School of Extended Education,"1460 East Holt Avenue Suite 100, Pomona, CA  91767-5862",NA,NA,NA,exempt
 Pomona Unified,School of Extended Educational Options,NA,NA,NA,NA,not tested
 Pomona Unified,Simons Middle,NA,NA,NA,NA,not tested
 Pomona Unified,Vejar Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Vejar Elementary School,"950 West Grand Avenue, Pomona, CA  91766-3325",NA,NA,NA,exempt
+Pomona Unified,Village Academy High School,"1444 East Holt Avenue, Pomona, CA  91767-5865",NA,NA,NA,exempt
 Pomona Unified,Village Academy High School at Indian Hill,NA,NA,NA,NA,not tested
 Pomona Unified,Westmont Elementary,NA,NA,NA,NA,not tested
+Pomona Unified,Westmont Elementary School,"1780 West Ninth Street, Pomona, CA  91766-1058",NA,NA,NA,exempt
+Pomona Unified,Yorba Elementary School,"250 W. La. Verne Ave., Pomona, CA 91767",NA,NA,NA,exempt
 Pope Valley Union Elementary,Pope Valley Elementary,NA,NA,NA,NA,not tested
 Porterville Unified,Bartlett Middle,335 North G Street Porterville CA 93257-3471,10,ppb,TRUE,tested
 Porterville Unified,Belleview Elementary,197 West Belleview Avenue Porterville CA 93257-2256,NA,ppb,FALSE,tested
@@ -7657,6 +7740,7 @@ Private,Ballington Academy,799 East Rialto Ave  San Bernardino CA 92408,NA,ppb,F
 Private,Bella Vista Christian Academy,1635 Chester Drive Tracy CA 95376,9.9,ppb,TRUE,tested
 Private,Bellarmine College Preparatory,960 West Hedding Street San Jose CA 95126,NA,ppb,FALSE,tested
 Private,Bergamo Montessori School,8144 Pocket Road Sacramento CA 95831,NA,ppb,FALSE,tested
+Private,Berkeley Rose School,2138 Cedar Street Berkeley CA 94709,8.2,ppb,TRUE,tested
 Private,Bethany Christian Academy,13431 Edwards Street Westminster CA 92683,NA,ppb,FALSE,tested
 Private,Bethel Christian School,933 College View Drive Redding CA 96003,NA,ppb,FALSE,tested
 Private,Bishop O'Dowd High School,9500 Stearns Avenue Oakland CA 94605,330,ppb,TRUE,tested
@@ -7669,6 +7753,7 @@ Private,Cal Poly Child Development Center,1 Grand Ave. San Luis Obispo CA 93401,
 Private,Cal Poly Children’s Center,Cal Poly Children’s Center  San Luis Obispo CA 93405,NA,ppb,FALSE,tested
 Private,Cambridge International Preparatory School,501 Cambridge St. San Francisco CA 94134,NA,ppb,FALSE,tested
 Private,Camellia Waldorf,7450 Pocket Road Sacramento CA 95831,NA,ppb,FALSE,tested
+Private,Campbell Hall (Episcopal),4533 Laurel Canyon Boulevard North Hollywood CA 91607,NA,ppb,FALSE,tested
 Private,Carden Conservatory,5702 Clark Drive Huntington Beach CA 92649,6,ppb,TRUE,tested
 Private,Cardinal Newman High School,50 Ursuline Road Santa Rosa CA 95403,NA,ppb,FALSE,tested
 Private,Carson Christian School,17705 Central Avenue Carson CA 90746,NA,ppb,FALSE,tested
@@ -7732,6 +7817,7 @@ Private,Escuela Bilingüe Internacional,410 Alcatraz Avenue Oakland CA 94609,NA,
 Private,Escuela Bilingue Internacional San Pablo Emeryville Campus,4550 San Pablo Dr Emeryville  CA 94608,NA,ppb,FALSE,tested
 Private,Fairfield Christian School,2075 Dover Avenue Fairfield CA 94533,NA,ppb,FALSE,tested
 Private,Faith Academy,320 South J Street Imperial CA 92251,NA,ppb,FALSE,tested
+Private,First Baptist Christian Schools,3535 North El Dorado Street Stockton CA 95204,NA,ppb,FALSE,tested
 Private,Foothills Adventist Elementary,711 Sunnyside Road St. Helena CA 94574,24,ppb,TRUE,tested
 Private,Foothills Christian High School,2321 Dryden Road El Cajon CA 92020,NA,ppb,FALSE,tested
 Private,Foothills Christian Middle School,350 Cypress Ln. Ste C El Cajon CA 92020,NA,ppb,FALSE,tested
@@ -7756,10 +7842,12 @@ Private,"Heartland Christian Homeschool Center, Inc.",3327 Kenora Drive Spring V
 Private,Heights Christian School / Brea,200 South Associated Road Brea CA 92821,NA,ppb,FALSE,tested
 Private,"Heights Christian Schools, Bluefield Campus",12900 Bluefield Avenue La Mirada CA 90638,7.7,ppb,TRUE,tested
 Private,Helen Turner Children's Center,23640 Reed Way Hayward CA 94541,16,ppb,TRUE,tested
+Private,Heritage Academy,2401 Bernard Street Bakersfield CA 93306,NA,ppb,FALSE,tested
 Private,Heritage Christian School,17531 Rinaldi Street Granada Hills CA 91344,6.3,ppb,TRUE,tested
 Private,Hickman Charter,NA,NA,ppb,FALSE,tested
 Private,High Tech Middle Media Arts,NA,NA,ppb,FALSE,tested
 Private,Hilldale School,79 Florence Street Daly City CA 94014,NA,ppb,FALSE,tested
+Private,Holden High School,10 Irwin Way Orinda CA 94563,NA,ppb,FALSE,tested
 Private,Holy Angels Elementary,20 Reiner Street Colma CA 94014,NA,ppb,FALSE,tested
 Private,Holy Name Elementary,1560 40th Avenue San Francisco CA 94122,23,ppb,TRUE,tested
 Private,Holy Name of Mary,124 South San Dimas Canyon Road San Dimas CA 91773,NA,ppb,FALSE,tested
@@ -7770,11 +7858,14 @@ Private,Holy Trinity School,3115 Tierra de Dios Drive El Dorado Hills CA 95762,N
 Private,Hueneme Christian School,312 North Ventura Road Port Hueneme CA 93041,NA,ppb,FALSE,tested
 Private,Huntington Christian,9700 Levee Drive Huntington Beach CA 92646,NA,ppb,FALSE,tested
 Private,ICEF Vista Elementary Academy,4471 Inglewood Blvd. Los Angeles CA 90066-6209,NA,ppb,FALSE,tested
+Private,ICEF Vista Middle Academy,NA,NA,ppb,FALSE,tested
 Private,Immaculate Conception Academy,3625 24th Street San Francisco CA 94110,6,ppb,TRUE,tested
 Private,Imperial County Office of Education,NA,NA,NA,NA,not tested
 Private,International School of Los Angeles-PAS,30 North Marion Avenue Pasadena CA 91106,NA,ppb,FALSE,tested
 Private,Isana Nascent Academy,4231 Fourth Ave. Los Angeles CA 90008,6,ppb,TRUE,tested
+Private,Jardin de la Infancia,NA,NA,ppb,FALSE,tested
 Private,Joan Macy School,1350 3rd Street La Verne CA 91750,NA,ppb,FALSE,tested
+Private,Julia Morgan School for Girls,5000 MacArthur Boulevard PMB 9966 Oakland CA 94613,NA,ppb,FALSE,tested
 Private,Julian Charter School,27235 Madison Ave # 101 Temecula CA 92590,NA,ppb,FALSE,tested
 Private,Junipero Serra High School,14830 South Van Ness Avenue Gardena CA 90249,46,ppb,TRUE,tested
 Private,Kerman Christian School,15495 West Whitesbridge Avenue Kerman CA 93630,NA,ppb,FALSE,tested
@@ -7785,8 +7876,11 @@ Private,KIPP Adelante Preparatory Academy,NA,NA,ppb,FALSE,tested
 Private,KIPP Comienza Community Prep,6410 Rita Avenue Huntington Park CA 90255-4126,NA,ppb,FALSE,tested
 Private,Knott Ave Christian Church Early Childhood Dev Center,315 South Knott Avenue Anaheim CA 92806,11,ppb,TRUE,tested
 Private,La Purisima Catholic School,219 W OliveAve Lompoc CA 93436,NA,ppb,FALSE,tested
+Private,La Scuola International School K4 Campus,735 Fell Street San Francisco CA 94117,NA,ppb,FALSE,tested
+Private,La Scuola International School Middle School Campus,3250 18th Street  San Francisco CA 94110,NA,ppb,FALSE,tested
 Private,Laguna Blanca School,260 San Ysidro Rd Montecito CA 93108,NA,ppb,FALSE,tested
 Private,Landmark Christian,1925 Olive Avenue Atwater CA 95301,NA,ppb,FALSE,tested
+Private,Larchmont Charter,NA,NA,ppb,FALSE,tested
 Private,Learning Pathways Kindergarten,4115 Jacksol Drive Bldg 3 San Jose CA 95124,NA,ppb,FALSE,tested
 Private,Legacy Christian School,420 Allegan Circle San Jose CA 95123,5.3,ppb,TRUE,tested
 Private,LePort Schools - Huntington Harbor,16081 Waikiki Lane Huntington Beach CA 92649,7.4,ppb,TRUE,tested
@@ -7812,6 +7906,7 @@ Private,Mercy High School,3250 19th Avenue San Francisco CA 94132,NA,ppb,FALSE,t
 Private,Middletown Christian School,20800 Highway 29 Middletown CA 95461,NA,ppb,FALSE,tested
 Private,Millennium School of San Francisco,380 Fulton Street San Francisco CA 94102,NA,ppb,FALSE,tested
 Private,Mills College Children's School,5000 MacArthur Boulevard Oakland CA 94613,NA,ppb,FALSE,tested
+Private,Minaret Academy,1220 North State College Boulevard Anaheim CA 92806,NA,ppb,FALSE,tested
 Private,Mission Bay Montessori Academy,2640 Soderblom Avenue San Diego CA 92122,NA,ppb,FALSE,tested
 Private,Mission College Child Development Center,3000 Mission College Blvd Ms 6 Santa Clara CA 95054,NA,ppb,FALSE,tested
 Private,Mission Dolores Academy,3371 16th Street San Francisco CA 94114,NA,ppb,FALSE,tested
@@ -7827,9 +7922,11 @@ Private,Monticello Academy,3345 Lochinvar Avenue Santa Clara CA 95051,NA,ppb,FAL
 Private,Mother Lode Christian School,18393 Gardner Avenue Tuolumne CA 95379,NA,ppb,FALSE,tested
 Private,Mt. Helix Academy,5955 Severin Drive La Mesa CA 91942,NA,ppb,FALSE,tested
 Private,Murrieta Elementary School,24725 Adams Avenue Murrieta CA 92562-9172,NA,ppb,FALSE,tested
+Private,My City School,299 Dolores St San Francisco CA 94114,NA,ppb,FALSE,tested
 Private,Nelson J Anderson charter school,NA,NA,NA,NA,not tested
 Private,New Day Academy,NA,NA,ppb,FALSE,tested
 Private,New Horizon School Pasadena,651 North Orange Grove Boulevard Pasadena CA 91103,NA,ppb,FALSE,tested
+Private,New Life Christian,4201 Stine Road Bakersfield CA 93313,NA,ppb,FALSE,tested
 Private,Norman R. Brekke Elementary,NA,NA,ppb,FALSE,tested
 Private,"North Valley School, Redding",855 Canyon Road Redding CA 96001,NA,ppb,FALSE,tested
 Private,Notre Dame School,435 Hazel Street Chico CA 95928,NA,ppb,FALSE,tested
@@ -7855,7 +7952,7 @@ Private,Our Lady of Guadalupe,40374 Fremont Boulevard Fremont CA 94538,NA,ppb,FA
 Private,Our Lady of Mercy,1400 East 27th Street Merced CA 95340,NA,ppb,FALSE,tested
 Private,Our Lady of Mercy Elementary,7 Elmwood Drive Daly City CA 94015,15,ppb,TRUE,tested
 Private,Our Lady of Mt. Carmel Elementary,530 Hot Springs Road Santa Barbara CA 93108,NA,ppb,FALSE,tested
-Private,Our Lady of Perpetual Help,80 Wellington Avenue Daly City CA 94014,NA,ppb,FALSE,tested
+Private,Our Lady of Perpetual Help,124 Columbus Street Bakersfield CA 93305,NA,ppb,FALSE,tested
 Private,Our Lady of the Angels Academy,1100 West Duarte Arcadia CA 91007,NA,ppb,FALSE,tested
 Private,Our Lady of the Visitacion Elementary,785 Sunnydale Avenue San Francisco CA 94134,15,ppb,TRUE,tested
 Private,Our Savior Lutheran School,1385 South Livermore Avenue Livermore CA 94550,NA,ppb,FALSE,tested
@@ -7888,6 +7985,7 @@ Private,REALM Charter Middle,2023 Eighth Street Berkeley CA 94710-2026,NA,ppb,FA
 Private,Redding Adventist Academy,1356 East Cypress Avenue Redding CA 96002,15,ppb,TRUE,tested
 Private,Redding Christian School,21945 Old 44 Drive Palo Cedro CA 96073,5.29,ppb,TRUE,tested
 Private,Redwood Christian Middle School and High School,1000 Paseo Grande San Lorenzo CA 94580,NA,ppb,FALSE,tested
+Private,Redwood Day School,3245 Sheffield Avenue Oakland CA 94602,NA,ppb,FALSE,tested
 Private,Renaissance Academy,119 West Palm Street Altadena CA 91342,NA,ppb,FALSE,tested
 Private,Reyn Franca,4041 Main Street Denair CA 95316,NA,ppb,FALSE,tested
 Private,Ridder Park Site,1290 Ridder Park San Jose  CA,NA,ppb,FALSE,tested
@@ -8000,6 +8098,7 @@ Private,St. Martin of Tours Academy,7708 El Cajon Boulevard La Mesa CA 91942,NA,
 Private,St. Mary of the Angels,991 South Dora Ukiah CA 95482,NA,ppb,FALSE,tested
 Private,St. Mary of the Immaculate Conception,1158 Bont Lane Walnut Creek CA 94596,5.3,ppb,TRUE,tested
 Private,St. Mary's Elementary,30 Lyndon Avenue Los Gatos CA 95030,NA,ppb,FALSE,tested
+Private,St. Matthew Catholic,910 South El Camino Real San Mateo CA 94402,NA,ppb,FALSE,tested
 Private,St. Patrick Catholic School,3820 Pio Pico Drive Carlsbad CA 92008,NA,ppb,FALSE,tested
 Private,St. Patrick School,907 Seventh Street Rodeo CA 94572,NA,ppb,FALSE,tested
 Private,St. Paul Lutheran School,2916 North McKee Road Merced CA 95340,NA,ppb,FALSE,tested
@@ -8096,6 +8195,16 @@ Private,Woodward Leadership Academy,1777 West Baseline Street San Bernardino CA 
 Private,Young Scholar Education Center,4029 W George St Banning CA 92220,NA,ppb,FALSE,tested
 Private,Zion Lutheran,10368 Road 256 Terra Bella CA 93270,NA,ppb,FALSE,tested
 Private,Zion Lutheran School,495 9th Avenue San Francisco CA 94118,6.3,ppb,TRUE,tested
+PUSD,Fremont Academy,"725 W Franklin Ave, Pomona, CA 91766",NA,NA,NA,exempt
+PUSD,Fremont Middle School,"725 W Franklin Ave, Pomona, CA 91766",NA,NA,NA,exempt
+PUSD,Kellog Polytechnic Elementary,"610 Medina St, Pomona, CA 91768",NA,NA,NA,exempt
+PUSD,Lexington Elementary School,"550 W Lexington Ave, Pomona, CA 91766",NA,NA,NA,exempt
+PUSD,Marshall Middle School,"1921 Arroyo Ave, Pomona, CA 91768",NA,NA,NA,exempt
+PUSD,Mendoza Elementary School,"851 S Hamilton Blvd, Pomona, CA 91766",NA,NA,NA,exempt
+PUSD,Pomona Alternative- Pomona Community Day,"1530 W 2nd St, Pomona, CA 91766",NA,NA,NA,exempt
+PUSD,Ranch Hills Elementary,"2 Trabuco Pl, Pomona, CA 91766",NA,NA,NA,exempt
+PUSD,San Jose Elementary,"2015 Cadillac Dr, Pomona, CA 91767",NA,NA,NA,exempt
+PUSD,Simmons Middle School,"900 E Franklin Ave, Pomona, CA 91766",NA,NA,NA,exempt
 Raisin City Elementary,Raisin City Elementary,6425 West Bowles Avenue Raisin City CA 93652-0069,NA,ppb,FALSE,tested
 Ramona City Unified,Barnett Elementary,23925 Couna Way Ramona CA 92065-4120,NA,ppb,FALSE,tested
 Ramona City Unified,Future Bound Independent Study Secondary,720 Ninth Street Ramona CA 92065-2348,14,ppb,TRUE,tested
@@ -8179,7 +8288,7 @@ Redondo Beach Unified,Redondo Beach Learning Academy,1000 Del Amo Street Redondo
 Redondo Beach Unified,Redondo Shores High (Continuation),1000 Del Amo Street B Redondo Beach CA 90277-3034,NA,ppb,FALSE,tested
 Redondo Beach Unified,Redondo Union High,631 Vincent Park Redondo Beach CA 90277-3125,NA,ppb,FALSE,tested
 Redondo Beach Unified,Tulita Elementary,1520 Prospect Avenue Redondo Beach CA 90277-5113,NA,ppb,FALSE,tested
-Redwood City Elementary,Adelante Spanish Immersion,NA,NA,NA,NA,not tested
+Redwood City Elementary,Adelante Spanish Immersion,"3150 Granger Way, Redwood City, CA 94061",NA,NA,NA,exempt
 Redwood City Elementary,Clifford Elementary,NA,NA,NA,NA,not tested
 Redwood City Elementary,Connect Community Charter,635 Oakside Avenue                    Redwood City  CA 94063,12,ppb,TRUE,tested
 Redwood City Elementary,Fair Oaks Elementary,2950 Fair Oaks Avenue Redwood City CA 94063-3828,17,ppb,TRUE,tested
@@ -8190,15 +8299,32 @@ Redwood City Elementary,John F. Kennedy Middle,NA,NA,NA,NA,not tested
 Redwood City Elementary,John Gill Elementary,NA,NA,NA,NA,not tested
 Redwood City Elementary,KIPP Excelencia Community Preparatory,NA,NA,NA,NA,not tested
 Redwood City Elementary,McKinley Institute of Technology,NA,NA,NA,NA,not tested
-Redwood City Elementary,North Star Academy,NA,NA,NA,NA,not tested
+Redwood City Elementary,North Star Academy,"400 Duane St, Redwood City, CA 94062",NA,NA,NA,exempt
 Redwood City Elementary,Orion Alternative,NA,NA,NA,NA,not tested
 Redwood City Elementary,Rocketship Redwood City,NA,NA,NA,NA,not tested
 Redwood City Elementary,Roy Cloud Elementary,NA,NA,NA,NA,not tested
 Redwood City Elementary,Selby Lane Elementary,170 Selby Lane Atherton CA 94027-3960,28,ppb,TRUE,tested
 Redwood City Elementary,Taft Elementary,NA,NA,NA,NA,not tested
+Redwood City School District,Clifford School,"225 Clifford Ave, Redwood City, CA 94062",NA,NA,NA,exempt
+Redwood City School District,Fair Oaks Elementary School,"2950 Fair Oaks Ave, Redwood City, CA 94063",NA,NA,NA,exempt
+Redwood City School District,Garfield Elementary School,"3600 Middlefield Rd, Menlo Park, CA 94025",NA,NA,NA,exempt
+Redwood City School District,Hawes Elementary School,"909 Roosevelt Ave, Redwood City, CA 94061",NA,NA,NA,exempt
+Redwood City School District,Henry Ford Elementary School,"2498 Massachusetts Ave, Redwood City, CA 94061",NA,NA,NA,exempt
+Redwood City School District,Hoover Elementary School,"701 Charter St, Redwood City, CA 94063",NA,NA,NA,exempt
+Redwood City School District,John F Kennedy Middle School,"2521 Goodwin Ave, Redwood City, CA 94061",NA,NA,NA,exempt
+Redwood City School District,John Gill Elementary School,"555 Ave Del Ora, Redwood City, CA 94062",NA,NA,NA,exempt
+Redwood City School District,Mckinley Middle School,"400 Duane St, Redwood City, CA 94062",NA,NA,NA,exempt
+Redwood City School District,Orion Alternative Academy,"815 Allerton St, Redwood City, CA 94063",NA,NA,NA,exempt
+Redwood City School District,Roosevelt Elementary School,"2223 Vera Ave, Redwood City, CA 94061",NA,NA,NA,exempt
+Redwood City School District,Roy Cloud Elementary School,"3790 Red Oak Way, Redwood City, CA 94061",NA,NA,NA,exempt
+Redwood City School District,Selby Lane Elementary School,"170 Selby Ln, Atherton, CA 94027",NA,NA,NA,exempt
+Redwood City School District,Taft Elementary School,"903 Tenth Ave, Redwood City, CA 94063",NA,NA,NA,exempt
 Reed Union Elementary,Bel Aire Elementary,277 Karen Way Tiburon CA 94920-2044,17,ppb,TRUE,tested
 Reed Union Elementary,Del Mar Middle,NA,NA,NA,NA,not tested
 Reed Union Elementary,Reed Elementary,NA,NA,NA,NA,not tested
+Reed Union School District,Bel Aire Elementary School,"277 Karen Way, Tiburon, CA 94920",NA,NA,NA,exempt
+Reed Union School District,Del Mar Middle School,"105 Avenida Miraflores, Tiburon, CA 94920",NA,NA,NA,exempt
+Reed Union School District,Reed Elementary School,"105 Avenida Miraflores, Tiburon, CA 94920",NA,NA,NA,exempt
 Reef-Sunset Unified,Avenal Elementary,500 South First Avenue Avenal CA 93204-1501,NA,ppb,FALSE,tested
 Reef-Sunset Unified,Avenal High,601 Mariposa Street Avenal CA 93204-1413,9.6,ppb,TRUE,tested
 Reef-Sunset Unified,Reef Sunset Middle,608 North First Avenue Avenal CA 93204-1071,15,ppb,TRUE,tested
@@ -8399,6 +8525,7 @@ Rosemead Elementary,Mildred B. Janson Elementary,NA,NA,NA,NA,not tested
 Rosemead Elementary,Muscatel Middle,NA,NA,NA,NA,not tested
 Rosemead Elementary,Savannah Elementary,NA,NA,NA,NA,not tested
 Rosemead Elementary School District,"Encinita Elementary, Savannah Elementary and Muscatel Middle School","3907 Rosemead Blvd, Rosemead, CA 91770",NA,NA,NA,exempt
+Rosemead School District,Emma Shuey Elementary,"8472 E Wells St, Rosemead, CA 91770",NA,NA,NA,exempt
 Roseville City Elementary,Barbara Chilton Middle,4501 Bob Doyle Drive Roseville CA 95747-9048,NA,ppb,FALSE,tested
 Roseville City Elementary,Blue Oaks Elementary,8150 Horncastle Avenue Roseville CA 95747-6773,NA,ppb,FALSE,tested
 Roseville City Elementary,Bradford Woodbridge Fundamental Elementary,515 Niles Avenue Roseville CA 95678-1543,NA,ppb,FALSE,tested
@@ -8491,7 +8618,6 @@ Sacramento City Unified,James Marshall Elementary,9525 Goethe Road Sacramento CA
 Sacramento City Unified,John Bidwell Elementary,1730 65th Avenue Sacramento CA 95822-4804,NA,ppb,FALSE,tested
 Sacramento City Unified,John Cabrillo Elementary,1141 Seamas Avenue Sacramento CA 95822-2442,NA,ppb,FALSE,tested
 Sacramento City Unified,John D. Sloat Elementary,7525 Candlewood Way Sacramento CA 95822-5116,6.1,ppb,TRUE,tested
-Sacramento City Unified,John F. Kennedy High,6715 Gloria Drive Sacramento CA 95831-2008,NA,ppb,FALSE,tested
 Sacramento City Unified,John H Still Elementary,2200 John Still Dr Sacramento CA 95832,NA,ppb,FALSE,tested
 Sacramento City Unified,John H. Still Middle,2250 John Still Drive Sacramento CA 95832-1331,NA,ppb,FALSE,tested
 Sacramento City Unified,John Morse Therapeutic Center,1901 60th Avenue Sacramento CA 95822-4314,NA,ppb,FALSE,tested
@@ -9299,6 +9425,7 @@ San Lorenzo Unified,Del Rey Elementary,1510 Via Sonya San Lorenzo CA 94580-2760,
 San Lorenzo Unified,East Bay Arts High,20450 Royal Ave Hayward CA 94541-4712,14,ppb,TRUE,tested
 San Lorenzo Unified,Edendale Middle,16160 Ashland Avenue San Lorenzo CA 94580-1116,NA,ppb,FALSE,tested
 San Lorenzo Unified,Hesperian Elementary,620 Drew Street San Lorenzo CA 94580-1046,NA,ppb,FALSE,tested
+San Lorenzo Unified,Key Academy Charter School,16244 Carolyn Street San Leandro CA 94578,NA,ppb,FALSE,tested
 San Lorenzo Unified,KIPP King Collegiate High,2005 Via Barrett San Lorenzo CA 94580-1315,NA,ppb,FALSE,tested
 San Lorenzo Unified,KIPP Summit Academy,2005 Via Barret  San Lorenzo CA 94580-1315,NA,ppb,FALSE,tested
 San Lorenzo Unified,Lorenzo Manor Elementary,18250 Bengal Street Hayward CA 94541-2202,NA,ppb,FALSE,tested
@@ -9369,27 +9496,28 @@ San Mateo Union High,Hillsdale High,3115 Del Monte Street San Mateo CA 94403-380
 San Mateo Union High,Mills High,400 Murchison Drive Millbrae CA 94030-3024,NA,ppb,FALSE,tested
 San Mateo Union High,Peninsula High,300 Piedmont Avenue San Bruno CA 94019-3906,NA,ppb,FALSE,tested
 San Mateo Union High,San Mateo High,506 North Delaware Street San Mateo CA 94401-1700,NA,ppb,FALSE,tested
-San Mateo-Foster City,Abbott Middle,NA,NA,NA,NA,not tested
+San Mateo-Foster City,Abbott Middle,"600 36th Avenue San Mateo, CA 94403",NA,NA,NA,exempt
 San Mateo-Foster City,Audubon Elementary,841 Gull Avenue Foster City CA 94404-1427,NA,ppb,FALSE,tested
 San Mateo-Foster City,Bayside S.T.E.M. ACADEMY,NA,NA,NA,NA,not tested
-San Mateo-Foster City,Baywood Elementary,NA,NA,NA,NA,not tested
-San Mateo-Foster City,Beresford Elementary,NA,NA,NA,NA,not tested
-San Mateo-Foster City,Borel Middle,NA,NA,NA,NA,not tested
+San Mateo-Foster City,Baywood Elementary,"600 Alameda de las Pulgas San Mateo, CA 94402",NA,NA,NA,exempt
+San Mateo-Foster City,Beresford Elementary,"300 28th Avenue San Mateo, CA 94403",NA,NA,NA,exempt
+San Mateo-Foster City,Borel Middle,"425 Barneson Avenue San Mateo, CA 94402",NA,NA,NA,exempt
 San Mateo-Foster City,Bowditch Middle,1450 Tarpon Street Foster City CA 94404-1938,NA,ppb,FALSE,tested
 San Mateo-Foster City,Brewer Island Elementary,1151 Polynesia Drive Foster City CA 94404-1749,NA,ppb,FALSE,tested
-San Mateo-Foster City,College Park Elementary,NA,NA,NA,NA,not tested
-San Mateo-Foster City,Fiesta Gardens International Elementary,NA,NA,NA,NA,not tested
+San Mateo-Foster City,College Park Elementary,"715-A Indian Avenue San Mateo, CA 94401",NA,NA,NA,exempt
+San Mateo-Foster City,Fiesta Gardens International Elementary,"1001 Bermuda Drive San Mateo, CA 94402",NA,NA,NA,exempt
 San Mateo-Foster City,Foster City Elementary,461 Beach Park Boulevard Foster City CA 94404-2713,6.1,ppb,TRUE,tested
-San Mateo-Foster City,George Hall Elementary,NA,NA,NA,NA,not tested
-San Mateo-Foster City,Highlands Elementary,NA,NA,NA,NA,not tested
-San Mateo-Foster City,Laurel Elementary,NA,NA,NA,NA,not tested
-San Mateo-Foster City,LEAD Elementary,NA,NA,NA,NA,not tested
-San Mateo-Foster City,Meadow Heights Elementary,NA,NA,NA,NA,not tested
-San Mateo-Foster City,North Shoreview Montessori Elementary,NA,NA,NA,NA,not tested
-San Mateo-Foster City,Parkside Elementary,NA,NA,NA,NA,not tested
-San Mateo-Foster City,San Mateo Park Elementary,NA,NA,NA,NA,not tested
+San Mateo-Foster City,George Hall Elementary,"130 San Miguel Way San Mateo, CA 94403",NA,NA,NA,exempt
+San Mateo-Foster City,Highlands Elementary,"2320 Newport Street San Mateo, CA 94402",NA,NA,NA,exempt
+San Mateo-Foster City,Laurel Elementary,"316 36th Avenue San Mateo, CA 94403",NA,NA,NA,exempt
+San Mateo-Foster City,LEAD Elementary,"949 Ocean View Avenue San Mateo, CA 94401",NA,NA,NA,exempt
+San Mateo-Foster City,Meadow Heights Elementary,"2619 Dolores Street San Mateo, CA 94403",NA,NA,NA,exempt
+San Mateo-Foster City,North Shoreview Montessori Elementary,"1301 Cypress Avenue San Mateo, CA 94401",NA,NA,NA,exempt
+San Mateo-Foster City,Parkside Elementary,"1685 Eisenhower Street San Mateo, CA 94402",NA,NA,NA,exempt
+San Mateo-Foster City,San Mateo Park Elementary,"161 Clark Drive San Mateo, CA 94402",NA,NA,NA,exempt
 San Mateo-Foster City,San Mateo-Foster City Special Education Preschool,NA,NA,NA,NA,not tested
 San Mateo-Foster City,Sunnybrae Elementary,NA,NA,NA,NA,not tested
+San Mateo-Foster City School District,Bayside S.T.E.M. Academy,"2025 Kehoe Avenue San Mateo, CA 94403",NA,NA,NA,exempt
 San Miguel Joint Union,Almond Acres Charter Academy,NA,NA,NA,NA,not tested
 San Miguel Joint Union,Cappy Culver Elementary,NA,NA,NA,NA,not tested
 San Miguel Joint Union,Lillian Larsen Elementary,1601 L Street San Miguel CA 93451-9107,NA,ppb,FALSE,tested
@@ -9526,7 +9654,7 @@ Santa Barbara County Office of Education,Peter B Fitzgerald Community School,NA,
 Santa Barbara Unified,Adams Elementary,NA,NA,NA,NA,not tested
 Santa Barbara Unified,Adams Elementary School,"2701 Las Positas Rd, Santa Barbara, CA 93105",NA,NA,NA,exempt
 Santa Barbara Unified,Adelante Charter,NA,NA,NA,NA,not tested
-Santa Barbara Unified,Alta Vista Alternative High,NA,NA,NA,NA,not tested
+Santa Barbara Unified,Alta Vista Alternative High,"850 Portesuello Ave, Santa Barbara, CA 93101",NA,NA,NA,exempt
 Santa Barbara Unified,Cleveland Elementary,NA,NA,NA,NA,not tested
 Santa Barbara Unified,Cleveland Elementary School,"123 Alameda Padre Serra, Santa Barbara, CA 93103",NA,NA,NA,exempt
 Santa Barbara Unified,Dos Pueblos High School,"7266 Alameda Ave, Goleta, CA 93117",NA,NA,NA,exempt
@@ -9557,7 +9685,7 @@ Santa Barbara Unified,Roosevelt Elementary School,"1990 Laguna St, Santa Barbara
 Santa Barbara Unified,San Marcos High School,"4750 Hollister Ave, Santa Barbara, CA 93110",NA,NA,NA,exempt
 Santa Barbara Unified,San Marcos Senior High,NA,NA,NA,NA,not tested
 Santa Barbara Unified,Santa Barbara Charter,NA,NA,NA,NA,not tested
-Santa Barbara Unified,Santa Barbara Community Academy,NA,NA,NA,NA,not tested
+Santa Barbara Unified,Santa Barbara Community Academy,"850 Portesuello Ave, Santa Barbara, CA 93101",NA,NA,NA,exempt
 Santa Barbara Unified,Santa Barbara High School,"700 E Anapamu St, Santa Barbara, CA 93103",NA,NA,NA,exempt
 Santa Barbara Unified,Santa Barbara Jr.High School,"721 E Cota St, Santa Barbara, CA 93103",NA,NA,NA,exempt
 Santa Barbara Unified,Santa Barbara Junior High,NA,NA,NA,NA,not tested
@@ -9932,15 +10060,18 @@ Soledad Unified,Soledad Preschool Center,NA,NA,NA,NA,not tested
 Solvang Elementary,Solvang Elementary,NA,NA,NA,NA,not tested
 Somis Union,Somis Elementary,5268 North Street Somis CA 93066-9531,10.5,ppb,TRUE,tested
 Sonoma Valley Unified,Adele Harrison Middle,NA,NA,NA,NA,not tested
+Sonoma Valley Unified,Adele Harrison Middle School,"1150 Broadway, Sonoma, CA",NA,NA,NA,exempt
 Sonoma Valley Unified,Altimira Middle,17805 Arnold Drive Sonoma CA 95476-4019,NA,ppb,FALSE,tested
 Sonoma Valley Unified,Creekside High,NA,NA,NA,NA,not tested
 Sonoma Valley Unified,Dunbar Elementary,11700 Dunbar Road Glen Ellen CA 95442-9611,NA,ppb,FALSE,tested
 Sonoma Valley Unified,El Verano Elementary,18606 Riverside Drive Sonoma CA 95476-4526,NA,ppb,FALSE,tested
 Sonoma Valley Unified,Flowery Elementary,17600 Sonoma Highway Sonoma CA 95476-3699,NA,ppb,FALSE,tested
 Sonoma Valley Unified,Prestwood Elementary,NA,NA,NA,NA,not tested
-Sonoma Valley Unified,Sassarini Elementary,NA,NA,NA,NA,not tested
+Sonoma Valley Unified,Prestwood Elementary School,"343 MacArthur Street, Sonoma CA",NA,NA,NA,exempt
+Sonoma Valley Unified,Sassarini Elementary,"652 Fifth St. West, Sonoma, CA",NA,NA,NA,exempt
 Sonoma Valley Unified,Sonoma Charter,17202 Sonoma Highway Sonoma CA 95476-3667,NA,ppb,FALSE,tested
 Sonoma Valley Unified,Sonoma Valley High,NA,NA,NA,NA,not tested
+Sonoma Valley Unified,Sonoma Valley High School,"20000 Broadway, Sonoma, CA",NA,NA,NA,exempt
 Sonoma Valley Unified,Woodland Star Charter,17811 Arnold Drive Sonoma CA 95476-4019,NA,ppb,FALSE,tested
 Sonora,Gold Ridge Education Center,NA,NA,NA,NA,not tested
 Sonora,Spring Field Community Day,NA,NA,NA,NA,not tested
@@ -9981,24 +10112,26 @@ South Pasadena Unified,Marengo Elementary,NA,NA,NA,NA,not tested
 South Pasadena Unified,Monterey Hills Elementary,NA,NA,NA,NA,not tested
 South Pasadena Unified,South Pasadena Middle,NA,NA,NA,NA,not tested
 South Pasadena Unified,South Pasadena Senior High,NA,NA,NA,NA,not tested
-South San Francisco Unified,Alta Loma Middle,NA,NA,NA,NA,not tested
-South San Francisco Unified,Baden High (Continuation),NA,NA,NA,NA,not tested
-South San Francisco Unified,Buri Buri Elementary,NA,NA,NA,NA,not tested
+South San Francisco Unified,Alta Loma Middle,"116 Romney Avenue, South San Francisco, CA 94080",NA,NA,NA,exempt
+South San Francisco Unified,Baden High (Continuation),"825 Southwood Drive, South San Francisco, CA 94080",NA,NA,NA,exempt
+South San Francisco Unified,Buri Buri Elementary,"120 El Campo Drive, South San Francisco, CA 94080",NA,NA,NA,exempt
 South San Francisco Unified,Community Day,NA,NA,NA,NA,not tested
-South San Francisco Unified,El Camino High,NA,NA,NA,NA,not tested
-South San Francisco Unified,Hillside Elementary,NA,NA,NA,NA,not tested
+South San Francisco Unified,El Camino High,"1320 Mission Road South San Francsico, CA 94080",NA,NA,NA,exempt
+South San Francisco Unified,Hillside Elementary,"1400 Hillside Boulevard, South San Francisco, CA 94080",NA,NA,NA,exempt
 South San Francisco Unified,Junipero Serra Elementary,151 Victoria Street Daly City CA 94015-2708,NA,ppb,FALSE,tested
-South San Francisco Unified,Los Cerritos Elementary,NA,NA,NA,NA,not tested
-South San Francisco Unified,Martin Elementary,NA,NA,NA,NA,not tested
+South San Francisco Unified,Los Cerritos Elementary,"210 West Orange Avenue, South San Francisco, CA 94080",NA,NA,NA,exempt
+South San Francisco Unified,Martin Elementary,"35 School Street, South San Francisco, CA 94080",NA,NA,NA,exempt
 South San Francisco Unified,Monte Verde Elementary,NA,NA,NA,NA,not tested
-South San Francisco Unified,Parkway Heights Middle,NA,NA,NA,NA,not tested
-South San Francisco Unified,Ponderosa Elementary,NA,NA,NA,NA,not tested
+South San Francisco Unified,Parkway Heights Middle,"650 Sunset Avenue, South San Francisco, CA 94080",NA,NA,NA,exempt
+South San Francisco Unified,Ponderosa Elementary,"295 Ponderosa Road, South San Francisco, CA 94080",NA,NA,NA,exempt
 South San Francisco Unified,Skyline Elementary,55 Christen Avenue Daly City CA 94015-2811,NA,ppb,FALSE,tested
-South San Francisco Unified,South San Francisco High,NA,NA,NA,NA,not tested
-South San Francisco Unified,Spruce Elementary,NA,NA,NA,NA,not tested
-South San Francisco Unified,Sunshine Gardens Elementary,NA,NA,NA,NA,not tested
+South San Francisco Unified,South San Francisco High,"400 B Street South San Francisco, CA 94080",NA,NA,NA,exempt
+South San Francisco Unified,Spruce Elementary,"501 Spruce Avenue, South San Francisco, CA 94080",NA,NA,NA,exempt
+South San Francisco Unified,Sunshine Gardens Elementary,"1200 Miller Avenue, South San Francisco, CA 94080",NA,NA,NA,exempt
 South San Francisco Unified,Westborough Middle School,NA,NA,NA,NA,not tested
+South San Francisco Unified  School District,Community Day School,"201 West Orange Avenue South San Francisco, CA 94080",NA,NA,NA,exempt
 South San Francisco Unified  School District,Monte Verde Elementary School,"2551 St Cloud Dr, San Bruno, CA 94066",NA,NA,NA,exempt
+South San Francisco Unified  School District,Sunnybrae Elementary,"1031 South Delaware Street San Mateo, CA 94402",NA,NA,NA,exempt
 South Whittier Elementary,Carmela Elementary,NA,NA,NA,NA,not tested
 South Whittier Elementary,Howard J. McKibben Elementary,10550 Mills Avenue Whittier CA 90604-2439,NA,ppb,FALSE,tested
 South Whittier Elementary,Lake Marie Elementary,10001 Carmenita Road Whittier CA 90605-3206,NA,ppb,FALSE,tested
@@ -10322,16 +10455,16 @@ Tracy Joint Unified,Tracy High,315 East 11th Street Tracy CA 95376-4017,NA,ppb,F
 Tracy Joint Unified,Wanda Hirsch Elementary,1280 Dove Drive Tracy CA 95376-8362,NA,ppb,FALSE,tested
 Tracy Joint Unified,Willow Community Day,NA,NA,NA,NA,not tested
 Traver Joint Elementary,Traver Elementary,NA,NA,NA,NA,not tested
-Travis Unified,Cambridge Elementary,NA,NA,NA,NA,not tested
-Travis Unified,Center Elementary,NA,NA,NA,NA,not tested
-Travis Unified,Foxboro Elementary,NA,NA,NA,NA,not tested
-Travis Unified,Golden West Middle,NA,NA,NA,NA,not tested
-Travis Unified,Scandia Elementary,NA,NA,NA,NA,not tested
-Travis Unified,Travis Community Day,NA,NA,NA,NA,not tested
-Travis Unified,Travis Education Center,NA,NA,NA,NA,not tested
-Travis Unified,Travis Elementary,NA,NA,NA,NA,not tested
-Travis Unified,Travis Independent Study,NA,NA,NA,NA,not tested
-Travis Unified,Vanden High,NA,NA,NA,NA,not tested
+Travis Unified,Cambridge Elementary,"100 Cambridge Dr, Vacaville, CA 95687",NA,NA,NA,exempt
+Travis Unified,Center Elementary," 3101 Markeley Ln, Fairfield, CA 94533",NA,NA,NA,exempt
+Travis Unified,Foxboro Elementary," 600 Morning Glory Dr, Vacaville, CA 95687",NA,NA,NA,exempt
+Travis Unified,Golden West Middle,"2651 De Ronde Dr, Fairfield, CA 94533",NA,NA,NA,exempt
+Travis Unified,Scandia Elementary,"100 Broadway St, Fairfield, CA 94535",NA,NA,NA,exempt
+Travis Unified,Travis Community Day,"2775 De Ronde Dr, Fairfield, CA 94533",NA,NA,NA,exempt
+Travis Unified,Travis Education Center,"2775 De Ronde Dr, Fairfield, CA 94533",NA,NA,NA,exempt
+Travis Unified,Travis Elementary,"100 Hickam Ave, Travis AFB, CA 94535",NA,NA,NA,exempt
+Travis Unified,Travis Independent Study,"2751 De Ronde Dr, Fairfield, CA 94533",NA,NA,NA,exempt
+Travis Unified,Vanden High,"2951 Markeley Ln, Fairfield, CA 94533",NA,NA,NA,exempt
 Tres Pinos Union Elementary,Tres Pinos Elementary,5635 Airline Highway Tres Pinos CA 95075-0188,NA,ppb,FALSE,tested
 Tri-Cities ROP,Tri-Cities ROP,NA,NA,NA,NA,not tested
 Trinidad Union Elementary,Trinidad Elementary,300 Trinity Street Trinidad CA 95570-3030,35,ppb,TRUE,tested
@@ -10714,7 +10847,6 @@ Vista Unified,Grapevine Elementary,630 Grapevine Road Vista CA 92083-5599,49,ppb
 Vista Unified,Guajome Learning Center,NA,NA,NA,NA,not tested
 Vista Unified,Guajome Park Academy Charter,NA,NA,NA,NA,not tested
 Vista Unified,Hannalei Elementary,120 Hannalei Drive Vista CA 92083-7625,NA,ppb,FALSE,tested
-Vista Unified,Lake Elementary,4950 Lake Boulevard Oceanside CA 92056-4749,NA,ppb,FALSE,tested
 Vista Unified,Madison Middle,4930 Lake Boulevard Oceanside CA 92056-4749,NA,ppb,FALSE,tested
 Vista Unified,Major General Raymond Murray High,215 North Melrose Drive Vista CA 92083-5720,NA,ppb,FALSE,tested
 Vista Unified,Maryland Elementary,700 North Avenue Vista CA 92084-2906,NA,ppb,FALSE,tested
@@ -10802,9 +10934,9 @@ West Contra Costa Unified,Aspire Richmond Technology Academy,3040 Hilltop Mall R
 West Contra Costa Unified,Bayview Elementary,3001 16th Street San Pablo CA 94806-2353,NA,ppb,FALSE,tested
 West Contra Costa Unified,Cameron,7140 Gladys Avenue El Cerrito CA 94530-3108,5.3,ppb,TRUE,tested
 West Contra Costa Unified,Cesar E. Chavez Elementary,960 17th Street Richmond CA 94801-2400,NA,ppb,FALSE,tested
-West Contra Costa Unified,Collins Elementary,1224 Pinole Valley Road Pinole CA 94564-1300,NA,ppb,FALSE,tested
+West Contra Costa Unified,Collins Elementary,1224 Pinole Valley Road Pinole CA 94564-1300,11,ppb,TRUE,tested
 West Contra Costa Unified,Coronado Elementary,2100 Maine Avenue Richmond CA 94804-2798,NA,ppb,FALSE,tested
-West Contra Costa Unified,Crespi Junior High,1121 Allview Avenue El Sobrante CA 94803-1099,NA,ppb,FALSE,tested
+West Contra Costa Unified,Crespi Junior High,1121 Allview Avenue El Sobrante CA 94803-1099,96,ppb,TRUE,tested
 West Contra Costa Unified,De Anza High,5000 Valley View Road Richmond CA 94803-2599,NA,ppb,FALSE,tested
 West Contra Costa Unified,Dover Elementary,1871 21st Street San Pablo CA 94806-4400,NA,ppb,FALSE,tested
 West Contra Costa Unified,Edward M. Downer Elementary,1231 18th Street San Pablo CA 94806-4731,NA,ppb,FALSE,tested
@@ -10820,10 +10952,11 @@ West Contra Costa Unified,Harbour Way Elementary Community Day,NA,NA,NA,NA,not t
 West Contra Costa Unified,Helms Middle,2500 Road 20 San Pablo CA 94806-5010,NA,ppb,FALSE,tested
 West Contra Costa Unified,Hercules High,1900 Refugio Valley Road Hercules CA 94547-1554,NA,ppb,FALSE,tested
 West Contra Costa Unified,Hercules Middle,1900 Refugio Valley Rd Hercules CA 94547-1554,NA,ppb,FALSE,tested
-West Contra Costa Unified,John F. Kennedy High,4300 Cutting Boulevard Richmond CA 94804-3399,NA,ppb,FALSE,tested
+West Contra Costa Unified,Highland Elementary,2829 Moyers Road Richmond CA 94806-2728,160,ppb,TRUE,tested
+West Contra Costa Unified,John F. Kennedy High,4300 Cutting Boulevard Richmond CA 94804-3399,9.6,ppb,TRUE,tested
 West Contra Costa Unified,John Henry High,251 South 12th Street Richmond CA 94804-2411,NA,ppb,FALSE,tested
 West Contra Costa Unified,Kensington Elementary,90 Highland Boulevard Kensington CA 94708-1023,NA,ppb,FALSE,tested
-West Contra Costa Unified,Lake Elementary,2700 Eleventh Street San Pablo CA 94806-2298,NA,ppb,FALSE,tested
+West Contra Costa Unified,Lake Elementary,2700 Eleventh Street San Pablo CA 94806-2298,9.6,ppb,TRUE,tested
 West Contra Costa Unified,Leadership Public Schools: Richmond,880 Bissell Avenue Richmond CA 94801-2411,NA,ppb,FALSE,tested
 West Contra Costa Unified,Lovonya DeJean Middle,3400 Macdonald Avenue Richmond CA 94805-4501,NA,ppb,FALSE,tested
 West Contra Costa Unified,Lupine Hills Elementary,1919 Lupine Road Hercules CA 94547-1299,NA,ppb,FALSE,tested
@@ -10836,15 +10969,15 @@ West Contra Costa Unified,Murphy Elementary,4350 Valley View Road El Sobrante CA
 West Contra Costa Unified,Nutrition Center,750 Bissell Ave Richmond CA 94801,NA,ppb,FALSE,tested
 West Contra Costa Unified,Nystrom Elementary,230 Harbour Way South Richmond CA 94804-2428,NA,ppb,FALSE,tested
 West Contra Costa Unified,Ohlone Elementary,1616 Pheasant Drive Hercules CA 94547-1699,NA,ppb,FALSE,tested
-West Contra Costa Unified,Olinda Elementary,5855 Olinda Road El Sobrante CA 94803-3589,NA,ppb,FALSE,tested
+West Contra Costa Unified,Olinda Elementary,5855 Olinda Road El Sobrante CA 94803-3589,7,ppb,TRUE,tested
 West Contra Costa Unified,Peres Elementary,719 Fifth Street Richmond CA 94801-2655,NA,ppb,FALSE,tested
 West Contra Costa Unified,Pinole Middle,1575 Mann Drive Pinole CA 94564-4042,NA,ppb,FALSE,tested
 West Contra Costa Unified,Pinole Valley High,2900 Pinole Valley Road Pinole CA 94564-1499,NA,ppb,FALSE,tested
 West Contra Costa Unified,Richmond Charter Academy,NA,NA,NA,NA,not tested
 West Contra Costa Unified,Richmond Charter Elementary-Benito Juarez,777 Sonoma Street Richmond CA 94805-1534,NA,ppb,FALSE,tested
 West Contra Costa Unified,Richmond College Preparatory,214 South 11th Street Richmond CA 94804-2474,NA,ppb,FALSE,tested
-West Contra Costa Unified,Richmond High,1250 23rd Street Richmond CA 94804-1091,NA,ppb,FALSE,tested
-West Contra Costa Unified,Riverside Elementary,1300 Amador Street Richmond CA 94806-4098,NA,ppb,FALSE,tested
+West Contra Costa Unified,Richmond High,1250 23rd Street Richmond CA 94804-1091,37,ppb,TRUE,tested
+West Contra Costa Unified,Riverside Elementary,1300 Amador Street Richmond CA 94806-4098,11,ppb,TRUE,tested
 West Contra Costa Unified,Shannon Elementary,685 Marlesta Road Pinole CA 94564-2899,NA,ppb,FALSE,tested
 West Contra Costa Unified,Sheldon Elementary,2601 May Road Richmond CA 94803-3196,NA,ppb,FALSE,tested
 West Contra Costa Unified,Stege Elementary,4949 Cypress Avenue Richmond CA 94804-4499,10,ppb,TRUE,tested

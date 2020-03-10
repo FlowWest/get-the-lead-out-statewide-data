@@ -2,7 +2,7 @@ library(tidyverse)
 library(readxl)
 library(stringr)
 
-raw_lead_data <- read_excel('data-raw/monthlypostingJan2020.xlsx', skip = 1)
+raw_lead_data <- read_excel('data-raw/monthlypostingMar2020.xlsx', skip = 1)
 glimpse(raw_lead_data)
 
 tested_schools <- raw_lead_data %>% 
@@ -23,7 +23,7 @@ tested_schools <- raw_lead_data %>%
   select(-XMOD) %>% 
   unique()
 
-exempt <- read_excel('data-raw/exemption_forms.xlsx')
+exempt <- read_excel('data-raw/exemption_formsMar2020.xlsx')
 glimpse(exempt)
 
 exempt_schools <- exempt %>% 
@@ -104,4 +104,3 @@ cleaned_data %>%
   filter(r == 1) %>% 
   select(-r) %>% 
   write_csv('ca_schools_lead_testing_data.csv') 
-s

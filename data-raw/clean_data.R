@@ -2,8 +2,8 @@ library(tidyverse)
 library(readxl)
 library(stringr)
 
-raw_lead_data <- read_excel('data-raw/monthlypostingJan2020.xlsx', skip = 1)
-glimpse(raw_lead_data)
+raw_lead_data <- read_excel('data-raw/monthlypostingMar2020.xlsx', skip = 1)
+# glimpse(raw_lead_data)
 
 tested_schools <- raw_lead_data %>% 
   group_by(SchoolName, XMOD) %>% 
@@ -12,7 +12,7 @@ tested_schools <- raw_lead_data %>%
          schoolAddress = SchoolAddress, maxResult, unit) %>% 
   unique() %>% 
   ungroup() %>% 
-  group_by(schoolName) %>% 
+  group_by(schoolName, district) %>% 
   mutate(maxResult = max(maxResult),
          lead = case_when(XMOD != "<" & maxResult > 5 ~ TRUE, 
                           XMOD == "<" & maxResult == 5 ~ FALSE, 
@@ -23,8 +23,8 @@ tested_schools <- raw_lead_data %>%
   select(-XMOD) %>% 
   unique()
 
-exempt <- read_excel('data-raw/exemption_forms.xlsx')
-glimpse(exempt)
+exempt <- read_excel('data-raw/exemption_formsMar2020.xlsx')
+# glimpse(exempt)
 
 exempt_schools <- exempt %>% 
   mutate(maxResult = NA, unit = NA, lead = NA, status = "exempt") %>% 
@@ -33,7 +33,7 @@ exempt_schools <- exempt %>%
 
 # old not tested data, remove schools that have been tested now
 un_tested <- read_excel('data-raw/SchoolsUnsampled.xlsx')
-glimpse(un_tested)
+# glimpse(un_tested)
 
 not_tested <- un_tested %>% 
   select(district = District, schoolName = School) %>% 
@@ -90,11 +90,11 @@ cleaned_data <- all_schools %>%
          district = ifelse(is.na(district) | district == 'private', 'Private', district)) %>% 
   select(-match) 
 
-cleaned_data %>% 
-  group_by(district, schoolName) %>% 
-  mutate(count = n()) %>% 
-  filter(count > 1) %>% 
-  mutate(r = rank(schoolAddress, ties.method = 'first')) %>% View
+# cleaned_data %>% 
+#   group_by(district, schoolName) %>% 
+#   mutate(count = n()) %>% 
+#   filter(count > 1) %>% 
+#   mutate(r = rank(schoolAddress, ties.method = 'first')) %>% View
 
 # duplicates due to addresses
 cleaned_data %>% 
@@ -104,4 +104,4 @@ cleaned_data %>%
   filter(r == 1) %>% 
   select(-r) %>% 
   write_csv('ca_schools_lead_testing_data.csv') 
-s
+

@@ -6,7 +6,7 @@ raw_lead_data <- read_excel('data-raw/monthlypostingMar2020.xlsx', skip = 1)
 # glimpse(raw_lead_data)
 
 tested_schools <- raw_lead_data %>% 
-  group_by(SchoolName, XMOD) %>% 
+  group_by(SchoolName, DISTRICT, XMOD) %>% 
   mutate(maxResult = max(RESULT), unit = 'ppb') %>% 
   select(XMOD, district = DISTRICT, schoolName = SchoolName, 
          schoolAddress = SchoolAddress, maxResult, unit) %>% 
@@ -22,6 +22,8 @@ tested_schools <- raw_lead_data %>%
   filter(!is.na(lead)) %>% 
   select(-XMOD) %>% 
   unique()
+
+glimpse(tested_schools)
 
 exempt <- read_excel('data-raw/exemption_formsMar2020.xlsx')
 # glimpse(exempt)
@@ -55,7 +57,8 @@ not_tested_schools <- tested_schools %>%
 all_schools <- tested_schools %>% 
   bind_rows(exempt_schools) %>% 
   bind_rows(not_tested_schools) %>% 
-  arrange(district, schoolName)
+  arrange(district, schoolName) %>% 
+  ungroup()
 
 # CLEAN UP DISTRICT NAMES
 # check for dirty district naming
@@ -84,24 +87,47 @@ district_lookup <- dirty_district %>%
   filter(is.na(in_cde)) %>% 
   select(-in_cde)
 
-cleaned_data <- all_schools %>% 
+cleaned_districts <- all_schools %>% 
   left_join(district_lookup) %>% 
   mutate(district = ifelse(is.na(match), district, match),
          district = ifelse(is.na(district) | district == 'private', 'Private', district)) %>% 
   select(-match) 
 
-# cleaned_data %>% 
-#   group_by(district, schoolName) %>% 
-#   mutate(count = n()) %>% 
-#   filter(count > 1) %>% 
-#   mutate(r = rank(schoolAddress, ties.method = 'first')) %>% View
-
 # duplicates due to addresses
-cleaned_data %>% 
+clean_addresses <- cleaned_districts %>% 
   group_by(district, schoolName) %>% 
   arrange(district, schoolName) %>% 
   mutate(r = rank(schoolAddress, ties.method = 'first')) %>% 
   filter(r == 1) %>% 
   select(-r) %>% 
+  bind_rows(
+    all_schools %>%
+      filter(schoolName %in% c("Bella Vista Elementary", "Wonderful College Prep Academy"),
+             district %in% c("San Ramon Valley Unified School District", "Kern County Superintendent"))
+  ) 
+
+# from Laura's manual deduplicating effort
+# pre_dedup <- read_csv('ca_schools_lead_testing_data_March11_pre_dedup.csv')
+# dedup <- read_csv('ca_schools_lead_testing_data_March11.csv')
+# 
+# duplicate_checked <- pre_dedup %>%
+#   left_join(mutate(dedup, non_duplicate = TRUE)) %>% 
+#   mutate(keep_record = ifelse(is.na(non_duplicate), FALSE, TRUE),
+#          duplicate_checked = TRUE) %>% 
+#   select(-non_duplicate)
+# 
+# clean_addresses %>% 
+#   left_join(duplicate_checked) %>% 
+#   mutate(duplicate_checked = replace(duplicate_checked, is.na(duplicate_checked), FALSE)) %>% 
+#   write_csv('data-raw/ca_schools_lead_testing_data_for_dedup_QC.csv')
+
+# file back from Laura after manual deduplicating effort is finsihed
+# NOTE Laure only checked the remaining ones that were not tested or exempt for duplication (the entries of interest)
+clean_data <- read_csv('data-raw/ca_schools_lead_testing_data_dedup_checked.csv') 
+
+clean_data %>% 
+  mutate(keep_record = replace(keep_record, is.na(keep_record), TRUE)) %>% 
+  filter(keep_record) %>% 
+  select(-keep_record, -duplicate_checked) %>% 
   write_csv('ca_schools_lead_testing_data.csv') 
 

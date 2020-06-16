@@ -107,24 +107,26 @@ clean_addresses <- cleaned_districts %>%
   ) 
 
 # from Laura's manual deduplicating effort
-pre_dedup <- read_csv('ca_schools_lead_testing_data_March11_pre_dedup.csv')
-dedup <- read_csv('ca_schools_lead_testing_data_March11.csv')
-
-duplicate_checked <- pre_dedup %>%
-  left_join(mutate(dedup, non_duplicate = TRUE)) %>% 
-  mutate(keep_record = ifelse(is.na(non_duplicate), FALSE, TRUE),
-         duplicate_checked = TRUE) %>% 
-  select(-non_duplicate)
-
-clean_addresses %>% 
-  left_join(duplicate_checked) %>% 
-  mutate(duplicate_checked = replace(duplicate_checked, is.na(duplicate_checked), FALSE)) %>% 
-  write_csv('ca_schools_lead_testing_data_for_dedup_QC.csv')
+# pre_dedup <- read_csv('ca_schools_lead_testing_data_March11_pre_dedup.csv')
+# dedup <- read_csv('ca_schools_lead_testing_data_March11.csv')
+# 
+# duplicate_checked <- pre_dedup %>%
+#   left_join(mutate(dedup, non_duplicate = TRUE)) %>% 
+#   mutate(keep_record = ifelse(is.na(non_duplicate), FALSE, TRUE),
+#          duplicate_checked = TRUE) %>% 
+#   select(-non_duplicate)
+# 
+# clean_addresses %>% 
+#   left_join(duplicate_checked) %>% 
+#   mutate(duplicate_checked = replace(duplicate_checked, is.na(duplicate_checked), FALSE)) %>% 
+#   write_csv('data-raw/ca_schools_lead_testing_data_for_dedup_QC.csv')
 
 # file back from Laura after manual deduplicating effort is finsihed
-clean_data <- read_csv('?.csv') # TBD
+# NOTE Laure only checked the remaining ones that were not tested or exempt for duplication (the entries of interest)
+clean_data <- read_csv('data-raw/ca_schools_lead_testing_data_dedup_checked.csv') 
 
 clean_data %>% 
+  mutate(keep_record = replace(keep_record, is.na(keep_record), TRUE)) %>% 
   filter(keep_record) %>% 
   select(-keep_record, -duplicate_checked) %>% 
   write_csv('ca_schools_lead_testing_data.csv') 

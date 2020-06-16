@@ -3,10 +3,10 @@ library(readxl)
 
 # updated to fix schools with same name different districts
 clean <- read_csv('ca_schools_lead_testing_data.csv')
-
+dim(clean)
 # from Laura's manual deduplicating effort
-pre_dedup <- read_csv('ca_schools_lead_testing_data_March11_pre_dedup.csv')
-dedup <- read_csv('ca_schools_lead_testing_data_March11.csv')
+pre_dedup <- read_csv('data-raw/ca_schools_lead_testing_data_March11_pre_dedup.csv')
+dedup <- read_csv('data-raw/ca_schools_lead_testing_data_March11.csv')
 
 dim(pre_dedup) - dim(dedup) 
 
@@ -41,7 +41,7 @@ tt %>%
   group_by(updated) %>% 
   summarise(n())
 
-missing <- read_csv('missing_schools.csv')  %>% 
+missing <- read_csv('data-raw/missing_schools.csv')  %>% 
   filter(`not found in testing data list`) %>% 
   select(district = DISTRICT, schoolName = SchoolName) %>% 
   unique() %>% 

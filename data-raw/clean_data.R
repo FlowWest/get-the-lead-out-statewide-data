@@ -3,7 +3,7 @@ library(readxl)
 library(stringr)
 
 raw_lead_data <- read_excel('data-raw/monthlypostingMar2020.xlsx', skip = 1)
-# glimpse(raw_lead_data)
+glimpse(raw_lead_data)
 
 tested_schools <- raw_lead_data %>% 
   group_by(SchoolName, DISTRICT, XMOD) %>% 
@@ -131,3 +131,50 @@ clean_data %>%
   select(-keep_record, -duplicate_checked) %>% 
   write_csv('ca_schools_lead_testing_data.csv') 
 
+
+# summary stats -----
+# % of schools who have tested out of those required to test (so exempting exempt schools). 
+cleaned_data <- read_csv('ca_schools_lead_testing_data.csv')
+tested <- cleaned_data %>% 
+  filter(status != 'exempt') %>% 
+  select(schoolName, status) %>% 
+  unique() %>% 
+  group_by(status) %>% 
+  summarise(count = n()) %>% 
+  pull(count)
+
+tested[2] / (tested[1] + tested[2]) # prop tested
+
+# Also great to know the % and number of schools and school districts that found lead over 5 PPB.
+lead_found <- cleaned_data %>% 
+  select(schoolName, lead) %>% 
+  unique() %>%
+  filter(lead == 1) %>%
+  summarise(count = n()) %>% 
+  pull(count)
+
+lead_found / (tested[2])
+lead_found / (tested[1] + tested[2])
+
+district_lead_found <- cleaned_data %>% 
+  select(district, lead) %>% 
+  unique() %>% 
+  filter(lead == 1) %>% 
+  summarise(count = n()) %>% 
+  pull(count)
+
+num_districts <- cleaned_data %>% 
+  select(district, status) %>% 
+  unique() %>% 
+  summarise(count = n()) %>% 
+  pull(count)
+
+num_district_tested <- cleaned_data %>% 
+  select(district, status) %>% 
+  unique() %>% 
+  filter(status == 'tested' | status == 'exempt') %>% 
+  summarise(count = n()) %>% 
+  pull(count)
+
+district_lead_found / num_districts
+district_lead_found / num_district_tested
